@@ -1,0 +1,22 @@
+button,
+[role="button"] {
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+	border-radius: $border-radius;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+button:hover,
+[role="button"]:hover {
+  box-shadow: $drop-shadow;
+}
+button:active,
+button:focus,
+[role="button"]:active,
+[role="button"]:focus {
+	border: 1px solid $color-muted;
+  box-shadow: $drop-shadow;
+}
+[aria-pressed="true"] {
+	border: 1px solid $color-contrast;
+}

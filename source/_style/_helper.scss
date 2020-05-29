@@ -1,0 +1,66 @@
+/* UTILITY
+ * - layout & browser hacks
+ * - accessibility
+ * - browser warning (modernizr/noscript/etc)
+ */
+
+/* LAYOUT & browser hacks */
+:target::before { /* offset jump to ID in browser */
+	display: block;
+	content: " ";
+  height: 2em;      /* add height of your fixed element (offset) */
+  margin-top: -2em; /* add negative margin of your fixed element */
+  visibility: hidden;
+}
+
+/* Visibility */
+.is-hidden { /* eliminate from DOM */
+    display: none;
+}
+.is-invisible { /* accessibility: content still available to screen readers. */
+    position: absolute !important;
+    word-wrap: normal !important;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    overflow: hidden;
+}
+.is-current { /* highlight navigation links and more */
+}
+/* layout */
+.is-cleared {
+  clear: both; /* clearfix for floating elements */
+}
+
+
+.skip-link { /* accessibility: link that only shows up when tabbed to with keyboard */
+    text-align: center;
+    position: fixed;
+    width: 40%;
+    top: -20em;
+    left: 20%;
+    background: white;
+    padding: 24px;
+    display: inline-block;
+    z-index: 100;
+    transition: all 0.3s ease-in-out;
+    &:focus {
+      top: 0;
+    }
+}
+.warning { /* styles warning text that breaks all design patterns */
+  font-family: arial, sans-serif;
+  color: #000;
+  background: #fff;
+  text-align: center;
+  padding: 5px;
+  margin-top: #{$line-height}em;
+  margin-bottom: #{$line-height}em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #000;
+}
