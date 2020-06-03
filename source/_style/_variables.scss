@@ -1,73 +1,124 @@
-// @todo make colors just base colors (light, dark, contrast) and compute all other values with sass-functions?
-// fix color&font-variables - use less variables and more functions
-// create sass mixins for browser-prefixes and color fallbacks
-// http://thesassway.com/intermediate/mixins-for-semi-transparent-colors
-// http://matthewshields.co.uk/experiments/provide-fallback-rgba-colours-using-sass-mixin/
-// http://alistapart.com/article/mixing-color-for-the-web-with-sass
+// BREAK POINTS
+$break-wide: 1162px; // can't use css-variables for media queries
 
-/* COLOR SCHEME: */
-$color-contrast: rgba(48,15,212,1);   // ?? Purple
-$color-light:    rgba(255,255,255,1);  // white
-$color-muted:    rgba(204,204,204,1);  // muted grey
-$color-medium:   rgba(128,128,128,1);  // medium grey
-$color-dark:     rgba(15,15,15,1);     // muted black
-$color-ghosted:  rgba(255,255,255,.94); // transparent white
-$color-lighter:  rgba(255,255,255,.3); // transparent white
-/*  rgba(48,115,124,1)   petrol
- *  rgba(204,204,204,1)  muted grey #ccc
- *  rgba(128,128,128,1)  medium grey #808080
- * 	rgba(15,15,15,1)     muted black #050505
- * 	rgba(250,250,250,1)  off white #fafafa
- * 	rgba(240,240,240,.5) transparent off white
- */
- $color-gradient: linear-gradient(to right top, #6b4e71, #595980, #436386, #326c84, #30737c);
+// css variables
+// must be proper css-arguments when used on elements
+// but can be called as integers in other variables
+// --number: 5;
+// --size: calc(var(--number) * 1em);
+// width: var(--size)
+//
+// define variables in :root so they apply to svg as well as html
+:root {
+// contrast-consistent color scheme
+// colors contrast against the color-base: 4.5 is AA accessibility standard
+// contrasts are sorted from light to dark against the base, computed with https://leonardocolor.io/theme.html
+// the -45 contrast is safe against either background in both dark and light schemes
+// use rgba color-function in CSS to lighten or darken colors through transparency
+// (add 20% steps to lighten, darken through transparent pseudo-element with white/black background)
+// check contrasts with https://colorable.jxnblk.com/
+/* off white & off black: works better on scroll than true black on OLED */
+--color-base-light: #fefefe;
+--color-base-dark: #090909;
 
+/* grey */
+--color-base-3: rgba(149, 148, 148, 1); /* #959494 */
+--color-base-45: rgba(118, 118, 118, 1); /* #767676 */
+--color-base-75: rgba(85, 84, 84, 1); /* #555454 */
+
+/* turqoise */
+--color-accent1-3: rgba(56, 159, 197, 1); /* #389fc5 */
+--color-accent1-45: rgba(61, 126, 152, 1); /* #3d7e98 */
+--color-accent1-75: rgba(53, 89, 104, 1); /* #355968 */
+
+/* purple */
+--color-accent2-3: rgba(194, 117, 229, 1); /* #c275e5 */
+--color-accent2-45: rgba(178, 59, 227, 1); /* #b23be3 */
+--color-accent2-75: rgba(118, 59, 142, 1); /* #763b8e */
+
+/* pink */
+--color-accent3-3: rgba(233, 102, 168, 1); /* #e966a8 */
+--color-accent3-45: rgba(224, 12, 144, 1); /* #e00c90 */
+--color-accent3-75: rgba(147, 44, 98, 1); /* #932c62 */
+
+// TODO create variables for gradients, like in button-backgrounds
 
 // FONT-FAMILIES
-$font-body: 'Bodoni MT', Didot, 'Didot LT STD', 'Times', 'Times New Roman', serif;
-$font-display: 'Arial Black', 'Avenir Next Heavy', Gadget, 'Arial Bold', Sans-Serif;
-
-$font-serif: Times, 'Times New Roman', Serif;
-$font-monospace: "Courier 10 Pitch", Consolas, "Liberation Mono", Courier, monospace; // monospace stack used by github (amended by Linux-Courier font)
-$font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+--font-body: 'Bodoni MT', Didot, 'Didot LT STD', 'Times', 'Times New Roman', serif;
+--font-display: 'Arial Black', 'Avenir Next Heavy', Gadget, 'Arial Bold', Sans-Serif;
+--font-monospace: "Courier 10 Pitch", Consolas, "Liberation Mono", Courier, monospace; // monospace stack used by github (amended by Linux-Courier font)
+--font-system: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 // ALTERNATE FONT-FAMILIES
-// SERIF, classic, readable (adapted from) http://www.cssfontstack.com/Book-Antiqua
-// 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
 // SANS-SERIF, native UI fonts
-// -apple-system, BlinkMacSystemFont, "Segoe UI", "Fira Sans", Roboto, Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
 // system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 // MONOSPACE
 // Lucida Console, Andale Mono, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "DejaVu LGC Sans Mono", Liberation Mono, Monaco, monospace;
 // SERIF, modern, light (adapted from) http://www.cssfontstack.com/Bodoni-MT
 // 'Bodoni MT', Didot, 'Didot LT STD', 'Times', 'Times New Roman', serif;
+// SERIF, classic, readable (adapted from) http://www.cssfontstack.com/Book-Antiqua
+// 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
 
 // FONT-SETTINGS
-$font-size-adjust: 0.42; // use aspect ratio (hight/x-hight) of primary font in font stack to force unified x-hight
-$font-smoothing: auto; // antialiased only for white on black to eliminate sub-pixel-rendering
-$font-feature-settings: "calt" on, "liga" on, "dlig" on, "kern" on; // add special cases where necessary: e.g. table numbering in tables, swashes in calligraphic headlines
-$text-size-adjust: 100%; // prevent adjustments of font size after orientation changes in IE and iOS.
+--font-size-adjust: 0.42; /* use aspect ratio (hight/x-hight) of primary font in font stack to force unified x-hight */
+--font-smoothing: auto; /* antialiased only for white on black to eliminate sub-pixel-rendering */
+--font-feature-settings: "calt" on, "liga" on, "dlig" on, "kern" on; /* add special cases where necessary: e.g. table numbering in tables, swashes in calligraphic headlines */
 
 // TYPOGRAPHY
 // typographic scale derived from 1 and 1.4 as base units applied to golden ratio
 // 0.865	1	1.4	1.618	2.265	2.618	3.665	4.236
-$type-scale-base: .8; //adjust universal base-unit for type size
-$type-scale-small:  $type-scale-base * 0.865;
+--type-scale-base:   .8; /* adjust universal base-unit for type size */
+--type-scale-small:  calc(var(--type-scale-base) * 0.865rem + 1vw);
+--type-scale-normal: calc(var(--type-scale-base) * 1rem + 1vw);
+--type-scale-h4:     calc(var(--type-scale-base) * 1.4rem + 1vw);
+--type-scale-h3:     calc(var(--type-scale-base) * 1.618rem + 1vw);
+--type-scale-h2:     calc(var(--type-scale-base) * 2.265rem + 1vw);
+--type-scale-h1:     calc(var(--type-scale-base) * 2.618rem + 1vw);
+--type-scale-huge:   calc(var(--type-scale-base) * 3.665rem + 1vw);
 
-$type-scale-extra-small:  $type-scale-base * 0.4;
+// TODO find proper solution for molten line-height, that expands with window width
+--line-height: 1.45;
 
-$type-scale-normal: $type-scale-base * 1;
-$type-scale-h4:     $type-scale-base * 1.4;
-$type-scale-h3:     $type-scale-base * 1.618;
-$type-scale-h2:     $type-scale-base * 2.265;
-$type-scale-h1:     $type-scale-base * 2.618;
-$type-scale-huge:   $type-scale-base * 3.665;
+// AESTHETICS
+--border-radius: 3px;
 
-$line-height: 1.45; // @todo find proper solution for molten line-height, expands with window width
+--box-shadow-x: initial;
+--box-shadow-y: initial;
+--box-shadow-blur: initial;
+--box-shadow-spread: initial;
+--box-shadow-color: initial;
+--box-shadow-inset: initial;
+/* overwrite properties of the box shadow by defining different variables locally */
+--drop-shadow:  var(--box-shadow-x, 1px) /* set theme default value here */
+                var(--box-shadow-y, 4px)
+                var(--box-shadow-blur, 8px)
+                var(--box-shadow-spread, 0)
+                var(--box-shadow-color, var(--color-base-dark)) /* "currentcolor" uses color property of font */
+                var(--box-shadow-inset, ); /* no inset = space " " -> switch to inset with "inset" */
+// use .foo { box-shadow: var(--drop-shadow); }
+// .foo:active { -box-shadow-y: 2em; box-shadow: var(--drop-shadow); }
 
-// FORM STYLES
-$border-radius: 10px;
-$drop-shadow: 1px 1px 6px rgba(0,0,0,.35);
+--glow-color: initial;
+--glow-spread: initial;
+--glow: -5px -5px 10px var(--glow-spread) var(--glow-color, currentcolor),
+         5px  5px 10px var(--glow-spread) var(--glow-color, currentcolor);
 
-// BREAK POINTS
-$break-wide: 1162px;
-$break-narrow: 620px;
+// HELPER-JS
+// pass user inputs through to CSS via variables
+/* variables derived from JavaScript helper.js */
+/*
+--scroll
+--input
+--mouse-x
+--mouse-y
+*/
+
+// use inline styles or JS to create a pseudo-element with content
+--prepend: initial;
+--append: initial;
+}
+::before {
+content: var(--prepend); /* computes to nothing (initial) unless a variable is actually supplied */
+}
+::after {
+  content: var(--append);
+}

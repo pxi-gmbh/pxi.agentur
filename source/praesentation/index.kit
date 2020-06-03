@@ -1,0 +1,37 @@
+<!-- $title = Agentur: Präsentation -->
+<!-- $description = Präsentation ist die Gestaltung von Information in verständliche Form -->
+<!-- @include ../_includes/_header -->
+<main id="main" role="main">
+  <header>
+    <h1 class="text-center">Präsentation</h1>
+  </header>
+  <section id="praesentation">
+    <!-- @compile _praesentation.md -->
+  </section>
+  <section>
+    <!-- @include _referenzen-praesentation -->
+  </section>
+  <section>
+    <!-- @include ../_includes/cta-contact -->
+  </section>
+  <section>
+    <!-- @include ../_includes/angebot-prozesse -->
+  </section>
+
+  <video autoplay loop muted class="drop-shadow" alt="Animation: Stellen Sie Ihr Leistungspaket selbst zusammen">
+  <source src="praesentation.mp4" type="video/mp4">
+    Entschuldigung, Ihr Browser unterstützt das Video-Format nicht.
+  </video>
+  <!-- @include _pakete-ppt -->
+  <section>
+    <!-- @include ../_includes/angebot-garantie -->
+  </section>
+  <!-- TODO create fallstudien /berichte -->
+  <!-- TODO create section explaining ancillary/complementary services, link to subsections -->
+  <footer class="text-small text-center">
+    <p>Wenn wir Ihnen sonst eine Frage beantworten können, tun wir das gerne.</p>
+    <p>Kontakt: <span class="js--email">agentur&nbsp;[at]&nbsp;pxi.gmbh</span></p>
+    <p>Noch etwas vergessen?<br><a href="#cta-form">Das Beispielpaket</a> herunterladen.</p>
+  </footer>
+</main>
+<!-- @include ../_includes/_footer -->

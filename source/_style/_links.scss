@@ -1,11 +1,11 @@
 a {
-	color: $color-medium;
+	color: var(--color-base-45);
 	// text-decoration: none;
   text-underline-position: under;
 	cursor: pointer;
 	text-decoration-skip: objects;
 	text-decoration-skip-ink: auto;
-	text-decoration-color: $color-contrast;
+	text-decoration-color: var(--color-accent1-45);
 	transition: all 0.3s ease;
 	&:hover,
 	&:active,
@@ -13,11 +13,14 @@ a {
 		text-decoration: underline;
 	}
 }
+a:hover {
+  text-shadow: 0 0 rgba(255,255,255,0), 3px 3px 3px green, 15px 15px 0 blue, 30px 30px 0 indigo, 45px 45px 0 violet;
+}
 main a:not(.button) {
 	text-decoration: underline;
 }
 	sup a {
-		color: $color-contrast;
+		color: var(--color-accent1-45);
 		text-decoration: none;
 		&:hover {
 			text-decoration: none;
@@ -30,3 +33,22 @@ main a:not(.button) {
 		content: "]";
 		}
 	}
+
+
+/*
+  [href]:focus {
+      outline:none
+  }
+
+  [href]:focus:not(:active) {
+      outline: .125rem solid
+  }
+
+  [tabindex="-1"]:focus {
+      outline:none
+  }
+
+  [href] {
+      text-decoration-thickness:.125em !important
+  }
+  */

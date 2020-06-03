@@ -29,38 +29,92 @@
     clip-path: inset(50%);
     overflow: hidden;
 }
-.is-current { /* highlight navigation links and more */
+.is-current,
+[aria-current] { /* highlight navigation links and more */
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: var(--color-accent2-45);
 }
 /* layout */
 .is-cleared {
   clear: both; /* clearfix for floating elements */
 }
-
-
 .skip-link { /* accessibility: link that only shows up when tabbed to with keyboard */
-    text-align: center;
+    display: block;
     position: fixed;
-    width: 40%;
     top: -20em;
-    left: 20%;
-    background: white;
-    padding: 24px;
-    display: inline-block;
+    text-align: center;
+    width: 100%;
     z-index: 100;
     transition: all 0.3s ease-in-out;
     &:focus {
-      top: 0;
+      top: 0; /* put the skip-link into view at top of viewport when tabbed to */
     }
 }
-.warning { /* styles warning text that breaks all design patterns */
+.warning { /* styles warning text that breaks all design patterns to stand out */
   font-family: arial, sans-serif;
   color: #000;
   background: #fff;
   text-align: center;
   padding: 5px;
-  margin-top: #{$line-height}em;
-  margin-bottom: #{$line-height}em;
+  margin-top: var(--line-height);
+  margin-bottom: var(--line-height);
   margin-left: auto;
   margin-right: auto;
   border: 5px solid #000;
+}
+
+/* style links and buttons that need to attract attention */
+.cta--primary {
+  --glow-color: var(--color-accent1-3);
+  color: var(--color-base-light);
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-radius: var(--border-radius);
+  background-color: var(--color-accent1-45);
+  box-shadow: var(--glow);
+}
+.cta--secondary {
+  color: var(--color-accent1-45);
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-radius: var(--border-radius);
+  box-shadow: var(--glow);
+}
+
+/*
+ * TYPOGRAPHIC HELPER CLASSES
+ */
+ .text-small {
+ 	font-size: 80%
+ }
+.text-align\:justify { /* the backslash escapes the colon so in HTML we can write class="text-align:justify" */
+	text-align: justify;
+	hyphens: auto;
+}
+.text-align\:left {
+	text-align: left;
+}
+.text-align\:center {
+	text-align: center;
+}
+.text-align\:right {
+	text-align: right;
+}
+.text-body {
+	font-family: var(--font-body);
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: none;
+	letter-spacing: normal;
+	color: var(--color-base-dark);
+}
+.font-display {
+  font-family: var(--font-display);
+}
+.hyphens\:auto {
+    hyphens:auto
+}
+.margin-top\:0 {
+    margin-top:0
 }

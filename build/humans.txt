@@ -1,19 +1,24 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
 
+
 # TEAM
 
-    <name> -- <role>
-    Jakob —- architect
-    Jonas
-    Jule
-    Justus
+	<name> -- <role>
+	Marie	 -- designer & developer
+	Justus -- content architect
+	Jule	 -- content strategist
+	Jonas	 -- plugin developer
+	Jakob  —- facilitator
+
 
 # THANKS
-    
-    <name>
-    you know who you are
+
+	<name>
+	you know who you are
+
 
 # TECHNOLOGY
 
-    HTML5, CSS3, JS
+	HTML5, CSS3 (SCSS), JS
+  handcrafted static pages

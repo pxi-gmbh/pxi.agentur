@@ -17,11 +17,9 @@ blockquote {
 }
 /* set rhythm */
 body {
-	font-size: calc(#{$type-scale-normal}em + 1vw);
-	line-height: $line-height;
-	text-rendering: optimizeLegibility;
+	font-size: var(--type-scale-normal);
 	* + * {
-		margin-top: #{$line-height}em;
+		margin-top: 1rem;
 	}
 }
 	@supports (font-variant-ligatures: common-ligatures) {
@@ -40,33 +38,24 @@ body {
 article,
 section {
 	position: relative;
-	margin-top: calc(#{$line-height}em * 2);
-	padding-top: #{$line-height}em;
-	padding-bottom: #{$line-height}em;
 }
-article:first-of-type,
-article section:first-of-type {
-	margin-top: 0;
-}
-
 h1,
 .header-1 {
-	font-family: $font-body;
+	font-family: var(--font-body);
 	font-weight: bolder;
-	font-size: #{$type-scale-huge}em;
+	font-size: var(--type-scale-huge);
 	font-style: normal;
   letter-spacing: 0.02em;
-	//text-transform: uppercase;
 	clear: both;
 }
 h2,
 .header-2 {
-	font-size: #{$type-scale-h2}em;
+	font-size: var(--type-scale-h2);
 	font-variant: normal;
 }
 h3,
 .header-3 {
-	font-size: #{$type-scale-h3}em;
+	font-size: var(--type-scale-h3);
 	letter-spacing: 0.02em;
 }
 	@supports(font-feature-settings: 'smcp') {
@@ -79,18 +68,18 @@ h3,
 	}
 h4,
 .header-4 {
-	font-size: #{$type-scale-h4}em;
+	font-size: var(--type-scale-h4);
 	font-style: italic;
 	font-variant: normal;
 }
 h5,
 .header-5 {
-	font-size: calc(#{$type-scale-normal}em + 1vw);
+	font-size: var(--type-scale-normal);
 	font-variant: normal;
   margin-bottom:0;
   padding: 0;
 }
-//* + h1,
+* + h1,
 * + .header-1,
 * + h2,
 * + .header-2,
@@ -99,12 +88,17 @@ h5,
 * + h4,
 * + .header-4,
 * + h5,
-* + .header-5  {
-	margin-top: calc(#{$line-height}em * 2);
+* + .header-5,
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child  {
+	margin-top: 6rem;
 }
 h5 + *,
 .header-5 + * {
-  margin-top: calc(#{$line-height}em * 0.5)
+  margin-top: 0.5rem;
 }
 p,
 ul,
@@ -130,7 +124,7 @@ ul {
 }
 	//ul > li:before {
 	//	content: "— ";
-	//	color: $color-medium;
+	//	color: var(--color-base-45);
 	//}
 ol {
 	list-style-type: decimal-leading-zero;
@@ -142,7 +136,7 @@ ol {
 	//	float: left;
 	//	width: 1em;
 	//	margin-right: 0.5em;
-	//	color: $color-medium;
+	//	color: var(--color-base-45);
 	//}
 }
 figure,
@@ -151,8 +145,8 @@ table {
 	//padding-bottom: 1em;
 	margin-left: auto;
 	margin-right: auto;
-	//border-top: 1px $color-muted dotted;
-	//border-bottom: 1px $color-muted dotted;
+	//border-top: 1px var(--color-base-3) dotted;
+	//border-bottom: 1px var(--color-base-3) dotted;
 	//margin-bottom: - 2px; /* offset border height from vertical rhythm */
 }
 table {
@@ -184,7 +178,7 @@ td {
 }
 
 blockquote {
-	border-left: 1px $color-muted dotted;
+	border-left: 1px var(--color-base-3) dotted;
 	padding-left: 1.5em;
 	> p {
 		margin: 0;
@@ -196,9 +190,19 @@ blockquote {
 	}
 }
 figcaption,
-.caption {
-	font-style: normal;
-	text-align: center;
+figure img {
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption {
+    max-width: 30ch;
+    margin-top: 0;
+    font-size: var(--type-scale-small);
+    text-align: center;
+    font-style:italic;
+}
+figcaption em {
+    font-style:normal;
 }
 sup,
 sub {
@@ -229,7 +233,7 @@ hr {
 	&::after {
 		content: '— — —';
 		display: block;
-		color: $color-muted;
+		color: var(--color-base-3);
 	}
 }
 i,
@@ -261,7 +265,7 @@ small {
 	font-size: 80%;
 }
 code {
-	font-family: $font-monospace;
+	font-family: var(--font-monospace);
 	display: inline;
 }
 pre {
@@ -271,6 +275,13 @@ pre {
 	overflow: auto;
 	border: 0;
 }
+/*pre {
+    padding: 1.5rem;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    overflow-x: auto;
+    white-space:pre-wrap
+}*/
 del {
 	text-decoration: line-through;
 }
@@ -278,6 +289,13 @@ cite {
 	&::before {
 		content: "— ";
 	}
+}
+q {
+	display: block;
+	font-size: var(--type-scale-h4);
+	text-align: center;
+	font-style: oblique;
+	clear: both;
 }
 abbr {
 	border-bottom: none; /* browser fix */
@@ -293,38 +311,7 @@ abbr {
 			font-feature-settings: 'smcp';
 		}
 	}
-q {
-	display: block;
-	font-size: #{$type-scale-h4}em;
-	text-align: center;
-	font-style: oblique;
-	clear: both;
-}
-
-/*
- * TYPOGRAPHIC HELPER CLASSES
- */
-.text-justified {
-	text-align: justify;
-	hyphens: auto;
-}
-.text-small {
-	font-size: 80%
-}
-.text-left {
-	text-align: left;
-}
-.text-center {
-	text-align: center;
-}
-.text-right {
-	text-align: right;
-}
-.text-body {
-	font-family: $font-body;
-	font-weight: normal;
-	font-variant: normal;
-	text-decoration: none;
-	letter-spacing: normal;
-	color: $color-dark;
-}
+  time {
+      display: block;
+      font-style:italic
+  }

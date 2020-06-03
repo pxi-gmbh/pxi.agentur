@@ -139,3 +139,44 @@ function toggleButton() {
     event.target.setAttribute("aria-pressed", "false");
   }
 }
+
+
+// UNIVERSAL CSS-VARIABLE HELPERS
+// give mouse input via coordinates to CSS variables --mouse-x & --mouse-y
+function mouseMove() {
+var root = document.documentElement;
+
+document.addEventListener("mousemove", function(evt) {
+	let x = evt.clientX / innerWidth;
+	let y = evt.clientY / innerHeight;
+
+	root.style.setProperty("--mouse-x", x);
+	root.style.setProperty("--mouse-y", y);
+});
+}
+
+// give all form input values to CSS variable --input
+// returns an integer that needs to be implemented with calc and a value in CSS
+// e.g.: progress-slider that updates fill input
+// input{background: linear-gradient(to right, red calc(var(--input) * 1%)), white 0}
+function inputValue() {
+  for (input of document.querySelectorAll("input")) {
+	input.style.setProperty("--input", input.value);
+  }
+  document.addEventListener("input", function(evt) {
+	var input = evt.target;
+	input.style.setProperty("--input", input.value);
+  });
+}
+// give scrolling event value of element with class "scrolling" to CSS variable
+// e.g.: show reading progress for container
+// .scrolling{background: linear-gradient(to right, red calc(var(--scroll) * 100%)), transparent 0}
+function scrollValue() {
+  for (let el of document.querySelectorAll(".scrolling")) {
+	el.addEventListener("scroll", function(evt) {
+		let maxScroll = el.scrollHeight - el.offsetHeight;
+		let scroll = el.scrollTop / maxScroll;
+		el.style.setProperty("--scroll", scroll);
+	});
+}
+}

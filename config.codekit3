@@ -7,144 +7,20 @@
 		"uuidString": "799518C1-AAEC-4A6B-B3E3-B3C5BCFAF6C5"
 		}
 	],
-"creatorBuild": "32147",
+"creatorBuild": "32186",
 "files": {
-	"/_entwuerfe/_arbeitsprobe.html": {
+	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_entwuerfe/_arbeitsprobe.html",
+		"oA": 0,
+		"oAP": "/build/.gitignore",
 		"oF": 0
 		},
-	"/_entwuerfe/_ausrichtung-schablone-momentaufnahme.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+	"/_entwuerfe": {
+		"ft": 65536,
 		"oA": 1,
-		"oAP": "/build/_entwuerfe/_ausrichtung-schablone-momentaufnahme.html",
-		"oF": 0
-		},
-	"/_entwuerfe/_chat.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/_entwuerfe/_chat-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/_entwuerfe/_chat.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_entwuerfe/_chat.html",
-		"oF": 0
-		},
-	"/_entwuerfe/_glossar.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_entwuerfe/_glossar.html",
-		"oF": 0
-		},
-	"/_entwuerfe/_itf-chat.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_entwuerfe/_itf-chat.html",
-		"oF": 0
-		},
-	"/_entwuerfe/_ppt-cta-form.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_entwuerfe/_ppt-cta-form.html",
-		"oF": 0
-		},
-	"/_entwuerfe/_ppt-kurzbefehle.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_entwuerfe/_ppt-kurzbefehle.html",
-		"oF": 0
-		},
-	"/_entwuerfe/_ppt-morph.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_entwuerfe/_ppt-morph.html",
-		"oF": 0
-		},
-	"/_entwuerfe/_ppt-pakete-table.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_entwuerfe/_ppt-pakete-table.html",
-		"oF": 0
-		},
-	"/_entwuerfe/_ppt-schnellzugriffsleiste.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_entwuerfe/_ppt-schnellzugriffsleiste.html",
-		"oF": 0
-		},
-	"/_entwuerfe/_ppt-startpaket.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_entwuerfe/_ppt-startpaket.html",
-		"oF": 0
-		},
-	"/_entwuerfe/_praesentation-cta-form.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_entwuerfe/_praesentation-cta-form.html",
-		"oF": 0
-		},
-	"/_entwuerfe/_sichtbarkeit-geschlechtergerechte-sprache.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_entwuerfe/_sichtbarkeit-geschlechtergerechte-sprache.html",
-		"oF": 0
-		},
-	"/_entwuerfe/_stellen.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_entwuerfe/_stellen.html",
-		"oF": 0
-		},
-	"/_entwuerfe/_strategie-cta-form.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_entwuerfe/_strategie-cta-form.html",
-		"oF": 0
-		},
-	"/_entwuerfe/_videos-geistesblitze.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_entwuerfe/_videos-geistesblitze.html",
+		"oAP": "/build/_entwuerfe",
 		"oF": 0
 		},
 	"/_html-code.html": {
@@ -164,452 +40,1050 @@
 	"/source/404.kit": {
 		"cB": 0,
 		"ft": 2048,
-		"hM": 0,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/build/404.html",
 		"oF": 2
 		},
-	"/source/_articles/datenschutz.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_articles/datenschutz.html",
-		"oF": 0
-		},
-	"/source/_articles/datenschutz.md": {
-		"cB": 0,
-		"cS": 2,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/_articles/datenschutz.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 1,
-		"pHT": 1,
-		"pME": 0,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"/source/_articles/leitfaden-schreiben.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_articles/leitfaden-schreiben.html",
-		"oF": 0
-		},
-	"/source/_articles/leitfaden-schreiben.md": {
-		"cB": 0,
-		"cS": 2,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/_articles/leitfaden-schreiben.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 1,
-		"pHT": 1,
-		"pME": 0,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"/source/_articles/methoden.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_articles/methoden.html",
-		"oF": 0
-		},
-	"/source/_articles/methoden.md": {
-		"cB": 0,
-		"cS": 2,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/_articles/methoden.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 1,
-		"pHT": 1,
-		"pME": 0,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"/source/_articles/visualisieren--mind-map.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_articles/visualisieren--mind-map.html",
-		"oF": 0
-		},
-	"/source/_articles/visualisieren--mind-map.md": {
-		"cB": 0,
-		"cS": 2,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/_articles/visualisieren--mind-map.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 1,
-		"pHT": 1,
-		"pME": 0,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"/source/_articles/werksschema--ausrichtung.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_articles/werksschema--ausrichtung.html",
-		"oF": 0
-		},
-	"/source/_articles/werksschema--ausrichtung.md": {
-		"cB": 0,
-		"cS": 2,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/_articles/werksschema--ausrichtung.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 1,
-		"pHT": 1,
-		"pME": 0,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"/source/_includes/_garantie.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_includes/_garantie.html",
-		"oF": 0
-		},
-	"/source/_includes/_itf-footer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_includes/_itf-footer.html",
-		"oF": 0
-		},
-	"/source/_includes/_itf-header.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_includes/_itf-header.html",
-		"oF": 0
-		},
-	"/source/_includes/_itf-navbar.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_includes/_itf-navbar.html",
-		"oF": 0
-		},
-	"/source/_includes/_prozesse.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_includes/_prozesse.html",
-		"oF": 0
-		},
-	"/source/_includes/_referenzen-icons.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_includes/_referenzen-icons.html",
-		"oF": 0
-		},
-	"/source/_includes/_referenzen-praesentation.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_includes/_referenzen-praesentation.html",
-		"oF": 0
-		},
-	"/source/_includes/_referenzen-strategie.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_includes/_referenzen-strategie.html",
-		"oF": 0
-		},
-	"/source/_includes/_svg.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/_includes/_svg.html",
-		"oF": 0
-		},
-	"/source/betrieb/betrieb.kit": {
+	"/source/_/_contact.kit": {
 		"cB": 0,
 		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/betrieb/betrieb.html",
-		"oF": 2
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/_/_contact.html",
+		"oF": 0
 		},
-	"/source/index.kit": {
+	"/source/_/_intro.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/_/_intro.html",
+		"oF": 0
+		},
+	"/source/_/_services.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/_/_services.html",
+		"oF": 0
+		},
+	"/source/_/_team.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/_/_team.html",
+		"oF": 0
+		},
+	"/source/_/datenschutz.md": {
+		"cB": 0,
+		"cS": 2,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
 		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_/datenschutz.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 1,
+		"pHT": 1,
+		"pME": 0,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/source/_/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/build/index.html",
 		"oF": 2
 		},
-	"/source/logbuch.kit": {
+	"/source/_/rechtliches.kit": {
 		"cB": 0,
 		"ft": 2048,
-		"hM": 0,
+		"hM": 1,
 		"oA": 0,
-		"oAP": "/build/logbuch.html",
+		"oAP": "/build/rechtliches.html",
 		"oF": 2
 		},
-	"/source/methoden.kit": {
+	"/source/_images/logo-bd.png": {
+		"ft": 32768,
+		"iS": 44004,
+		"oA": 0,
+		"oAP": "/build/_images/logo-bd.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/_images/logo-berenbaum.png": {
+		"ft": 32768,
+		"iS": 9725,
+		"oA": 0,
+		"oAP": "/build/_images/logo-berenbaum.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/_images/logo-boersenverein.png": {
+		"ft": 32768,
+		"iS": 18641,
+		"oA": 0,
+		"oAP": "/build/_images/logo-boersenverein.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/_images/logo-ippen.png": {
+		"ft": 32768,
+		"iS": 45854,
+		"oA": 0,
+		"oAP": "/build/_images/logo-ippen.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/_images/logo-jungeakademie.png": {
+		"ft": 32768,
+		"iS": 6715,
+		"oA": 0,
+		"oAP": "/build/_images/logo-jungeakademie.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/_images/logo-roche.png": {
+		"ft": 32768,
+		"iS": 27503,
+		"oA": 0,
+		"oAP": "/build/_images/logo-roche.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/_images/map-home.png": {
+		"ft": 32768,
+		"iS": 124003,
+		"oA": 0,
+		"oAP": "/build/_images/map-home.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/_images/platzhalter-besatzung.jpg": {
+		"ft": 16384,
+		"iS": 169411,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_images/platzhalter-besatzung.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/_images/portrait-dorothee-werner.jpg": {
+		"ft": 16384,
+		"iS": 21760,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_images/portrait-dorothee-werner.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/_images/portrait-elena-appel.jpg": {
+		"ft": 16384,
+		"iS": 73090,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_images/portrait-elena-appel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/_images/portrait-michael-liebmann.jpg": {
+		"ft": 16384,
+		"iS": 32855,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_images/portrait-michael-liebmann.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/_images/portrait-tom-polanski.jpg": {
+		"ft": 16384,
+		"iS": 63966,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_images/portrait-tom-polanski.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/_images/pxi-progression.jpg": {
+		"ft": 16384,
+		"iS": 41151,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_images/pxi-progression.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/_images/scenery-ocean-slim.jpg": {
+		"ft": 16384,
+		"iS": 96126,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_images/scenery-ocean-slim.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/_images/scenery-ocean.jpg": {
+		"ft": 16384,
+		"iS": 172300,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_images/scenery-ocean.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/_images/scenery-stars.jpg": {
+		"ft": 16384,
+		"iS": 149916,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_images/scenery-stars.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/_includes/_angebot-garantie.kit": {
 		"cB": 0,
 		"ft": 2048,
-		"hM": 0,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/_includes/_angebot-garantie.html",
+		"oF": 0
+		},
+	"/source/_includes/_angebot-prozesse.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/_includes/_angebot-prozesse.html",
+		"oF": 0
+		},
+	"/source/_includes/_cta-contact.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/_includes/_cta-contact.html",
+		"oF": 0
+		},
+	"/source/_includes/_footer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/_includes/_footer.html",
+		"oF": 0
+		},
+	"/source/_includes/_header.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/_includes/_header.html",
+		"oF": 0
+		},
+	"/source/_includes/_referenzen-icons.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/_includes/_referenzen-icons.html",
+		"oF": 0
+		},
+	"/source/_includes/_referenzen-strategie.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/_includes/_referenzen-strategie.html",
+		"oF": 0
+		},
+	"/source/_includes/_svg.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/_includes/_svg.html",
+		"oF": 0
+		},
+	"/source/_js/helper.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "/build/methoden.html",
-		"oF": 2
+		"oAP": "/build/helper.js",
+		"oF": 2,
+		"sC": 3,
+		"tS": 0
 		},
-	"/source/style/_buttons.scss": {
-		"aP": 0,
+	"/source/_style/_animations.scss": {
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/style/_buttons.css",
-		"oF": 1,
+		"oAP": "/build/_style/_animations.css",
+		"oF": 0,
 		"oS": 0,
 		"sct": 1
 		},
-	"/source/style/_forms-progress.scss": {
-		"aP": 0,
+	"/source/_style/_buttons.scss": {
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/style/_forms-progress.css",
+		"oAP": "/build/_style/_buttons.css",
 		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
-	"/source/style/_forms-slider.scss": {
-		"aP": 0,
+	"/source/_style/_forms-progress.scss": {
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/style/_forms-slider.css",
+		"oAP": "/build/_style/_forms-progress.css",
 		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
-	"/source/style/_forms.scss": {
-		"aP": 0,
+	"/source/_style/_forms-slider.scss": {
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/style/_forms.css",
+		"oAP": "/build/_style/_forms-slider.css",
 		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
-	"/source/style/_helper.scss": {
-		"aP": 0,
+	"/source/_style/_forms.scss": {
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/style/_helper.css",
+		"oAP": "/build/_style/_forms.css",
 		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
-	"/source/style/_html-reset.scss": {
-		"aP": 0,
+	"/source/_style/_helper.scss": {
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/style/_html-reset.css",
+		"oAP": "/build/_style/_helper.css",
 		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
-	"/source/style/_landmarks.scss": {
-		"aP": 0,
+	"/source/_style/_html-reset.scss": {
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/style/_landmarks.css",
+		"oAP": "/build/_style/_html-reset.css",
 		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
-	"/source/style/_layout.scss": {
-		"aP": 0,
+	"/source/_style/_landmarks.scss": {
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/style/_layout.css",
+		"oAP": "/build/_style/_landmarks.css",
 		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
-	"/source/style/_links.scss": {
-		"aP": 0,
+	"/source/_style/_layout.scss": {
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/style/_links.css",
+		"oAP": "/build/_style/_layout.css",
 		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
-	"/source/style/_media.scss": {
-		"aP": 0,
+	"/source/_style/_links.scss": {
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/style/_media.css",
+		"oAP": "/build/_style/_links.css",
 		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
-	"/source/style/_meta.scss": {
-		"aP": 0,
+	"/source/_style/_media.scss": {
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/style/_meta.css",
+		"oAP": "/build/_style/_media.css",
 		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
-	"/source/style/_navmenu.scss": {
-		"aP": 0,
+	"/source/_style/_meta.scss": {
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/style/_navmenu.css",
+		"oAP": "/build/_style/_meta.css",
 		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
-	"/source/style/_typography.scss": {
-		"aP": 0,
+	"/source/_style/_navmenu.scss": {
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/style/_typography.css",
+		"oAP": "/build/_style/_navmenu.css",
 		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
-	"/source/style/_variables.scss": {
-		"aP": 0,
+	"/source/_style/_theme--cta-form.scss": {
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/style/_variables.css",
+		"oAP": "/build/_style/_theme--cta-form.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/source/_style/_typography.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_style/_typography.css",
 		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
-	"/source/style/style.scss": {
-		"aP": 0,
+	"/source/_style/_variables.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_style/_variables.css",
+		"oF": 1,
+		"oS": 0,
+		"sct": 1
+		},
+	"/source/_style/style.scss": {
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/build/style/style.css",
+		"oAP": "/build/style.css",
 		"oF": 2,
 		"oS": 0,
 		"sct": 1
 		},
-	"/source/wissen.kit": {
+	"/source/befaehigung/_befaehigung.md": {
+		"cB": 0,
+		"cS": 2,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/befaehigung/_befaehigung.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 1,
+		"pHT": 1,
+		"pME": 0,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/source/befaehigung/index.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/build/befaehigung/index.html",
+		"oF": 0
+		},
+	"/source/betrieb/_erfolge.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/betrieb/_erfolge.html",
+		"oF": 0
+		},
+	"/source/betrieb/_geschichte.md": {
+		"cB": 0,
+		"cS": 2,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/betrieb/_geschichte.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 1,
+		"pHT": 1,
+		"pME": 0,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/source/betrieb/_personal.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/betrieb/_personal.html",
+		"oF": 0
+		},
+	"/source/betrieb/_werte.md": {
+		"cB": 0,
+		"cS": 2,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/betrieb/_werte.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 1,
+		"pHT": 1,
+		"pME": 0,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/source/betrieb/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/build/betrieb/index.html",
+		"oF": 2
+		},
+	"/source/betrieb/portrait-empty-240x300.jpg": {
+		"ft": 16384,
+		"iS": 32947,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/betrieb/portrait-empty-240x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/betrieb/portrait-jakob.jpg": {
+		"ft": 16384,
+		"iS": 52632,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/betrieb/portrait-jakob.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/betrieb/portrait-JJ-240x300.jpg": {
+		"ft": 16384,
+		"iS": 27085,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/betrieb/portrait-JJ-240x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/betrieb/portrait-jule.jpg": {
+		"ft": 16384,
+		"iS": 87744,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/betrieb/portrait-jule.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/betrieb/portrait-justus.jpg": {
+		"ft": 16384,
+		"iS": 97576,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/betrieb/portrait-justus.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/betrieb/portrait-marie.jpg": {
+		"ft": 16384,
+		"iS": 41759,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/betrieb/portrait-marie.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/wissen.html",
+		"oAP": "/build/favicon.ico",
+		"oF": 0
+		},
+	"/source/favicon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/favicon.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 65974455754719,
+		"prP": 0
+		},
+	"/source/humans.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/humans.txt",
+		"oF": 0
+		},
+	"/source/kompetenz/_angebot.md": {
+		"cB": 0,
+		"cS": 2,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/kompetenz/_angebot.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 1,
+		"pHT": 1,
+		"pME": 0,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/source/kompetenz/_glossar.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/kompetenz/_glossar.html",
+		"oF": 0
+		},
+	"/source/kompetenz/_methoden.md": {
+		"cB": 0,
+		"cS": 2,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/kompetenz/_methoden.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 1,
+		"pHT": 1,
+		"pME": 0,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/source/kompetenz/_wissen.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/kompetenz/_wissen.html",
+		"oF": 0
+		},
+	"/source/kompetenz/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/build/kompetenz/index.html",
 		"oF": 2
+		},
+	"/source/kompetenz/visualisieren/mind-map/_mind-map.md": {
+		"cB": 0,
+		"cS": 2,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/kompetenz/visualisieren/mind-map/_mind-map.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 1,
+		"pHT": 1,
+		"pME": 0,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/source/kompetenz/visualisieren/mind-map/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/build/kompetenz/visualisieren/mind-map/index.html",
+		"oF": 0
+		},
+	"/source/kompetenz/visualisieren/mind-map/mind-map-1.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/kompetenz/visualisieren/mind-map/mind-map-1.mp4",
+		"oF": 0
+		},
+	"/source/kompetenz/visualisieren/mind-map/mind-map-2.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/kompetenz/visualisieren/mind-map/mind-map-2.mp4",
+		"oF": 0
+		},
+	"/source/kompetenz/visualisieren/mind-map/mind-map-3.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/kompetenz/visualisieren/mind-map/mind-map-3.mp4",
+		"oF": 0
+		},
+	"/source/kompetenz/visualisieren/mind-map/mind-map-4.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/kompetenz/visualisieren/mind-map/mind-map-4.mp4",
+		"oF": 0
+		},
+	"/source/kompetenz/visualisieren/mind-map/mind-map-laufzettel.jpg": {
+		"ft": 16384,
+		"iS": 301038,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/kompetenz/visualisieren/mind-map/mind-map-laufzettel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/kompetenz/visualisieren/mind-map/mind-map-laufzettel.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/kompetenz/visualisieren/mind-map/mind-map-laufzettel.pdf",
+		"oF": 0
+		},
+	"/source/logbuch/logbuch.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/build/logbuch/index.html",
+		"oF": 2
+		},
+	"/source/orientierung/_loesungsraeume.md": {
+		"cB": 0,
+		"cS": 2,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/orientierung/_loesungsraeume.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 1,
+		"pHT": 1,
+		"pME": 0,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/source/orientierung/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/build/orientierung/index.html",
+		"oF": 0
+		},
+	"/source/praesentation/_cta-form-ppt.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/praesentation/_cta-form-ppt.html",
+		"oF": 0
+		},
+	"/source/praesentation/_pakete-ppt.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/praesentation/_pakete-ppt.html",
+		"oF": 0
+		},
+	"/source/praesentation/_praesentation.md": {
+		"cB": 0,
+		"cS": 2,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/praesentation/_praesentation.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 1,
+		"pHT": 1,
+		"pME": 0,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/source/praesentation/_referenzen-praesentation.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/praesentation/_referenzen-praesentation.html",
+		"oF": 0
+		},
+	"/source/praesentation/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/build/praesentation/index.html",
+		"oF": 0
+		},
+	"/source/praesentation/ppt-demo.jpg": {
+		"ft": 16384,
+		"iS": 135853,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/praesentation/ppt-demo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/praesentation/ppt-demo.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/praesentation/ppt-demo.mp4",
+		"oF": 0
+		},
+	"/source/praesentation/ppt-startpaket.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/praesentation/ppt-startpaket.zip",
+		"oF": 0
+		},
+	"/source/praesentation/praesentation-gorilla.jpg": {
+		"ft": 16384,
+		"iS": 86321,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/praesentation/praesentation-gorilla.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/praesentation/praesentation.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/praesentation/praesentation.mp4",
+		"oF": 0
+		},
+	"/source/robots.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/robots.txt",
+		"oF": 0
+		},
+	"/source/s/email-optin.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/s/email-optin.html",
+		"oF": 0
+		},
+	"/source/s/email-success.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/s/email-success.html",
+		"oF": 0
+		},
+	"/source/s/email-unsubscribe.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/s/email-unsubscribe.html",
+		"oF": 0
+		},
+	"/source/s/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/s/index.html",
+		"oF": 0
+		},
+	"/source/s/pattern-airmail.gif": {
+		"ft": 4194304,
+		"iS": 1497,
+		"oA": 0,
+		"oAP": "/build/s/pattern-airmail.gif",
+		"oF": 0,
+		"opt": 1
 		}
 	},
 "hooks": [
@@ -621,7 +1095,8 @@
 	"displayValue": "pxi.agentur",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-tar",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 612835828.89644694
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1056,7 +1531,7 @@
 			"flagValue": -1
 			}
 		},
-	"environmentVariablesString": "NODE_ENV:::production",
+	"environmentVariablesString": "",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
 	"esLintEnvironmentsMask": 1,
@@ -1158,6 +1633,10 @@
 			"optionString": "'all'"
 			},
 		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"default-case-last": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1573,6 +2052,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-loss-of-precision": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
@@ -1688,6 +2171,10 @@
 		"no-regex-spaces": {
 			"active": 1,
 			"optionString": ""
+			},
+		"no-restricted-exports": {
+			"active": 0,
+			"optionString": "{'restrictedNamedExports': []}"
 			},
 		"no-restricted-globals": {
 			"active": 0,
@@ -1832,6 +2319,10 @@
 		"no-use-before-define": {
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-backreference": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-call": {
 			"active": 0,
@@ -2561,7 +3052,7 @@
 		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0,
 		"shouldRunCacheBuster": 0,
-		"shouldRunHTMLMinifier": 0
+		"shouldRunHTMLMinifier": 1
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2582,7 +3073,7 @@
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -2646,7 +3137,7 @@
 		"decimalPrecision": 10,
 		"emitCharset": 1,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
 	"languageDefaultsSLIM": {
@@ -2715,7 +3206,7 @@
 	"rollupExternals": "",
 	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
 	"rollupTreeshakingEnabled": 1,
-	"skippedFoldersString": "",
+	"skippedFoldersString": "/_entwuerfe",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,

@@ -1,4 +1,5 @@
 User-agent: *
-Disallow: /assets/
-Disallow: /s/
-Disallow: /rechtliches.html
+Disallow: /datenschutz/
+Disallow: /_assets/
+Disallow: /_s/
+Disallow: /_mail/

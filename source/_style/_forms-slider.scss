@@ -1,7 +1,7 @@
 /* start slider section. needs review & cleanup */
 input[type="range"] {
 	display: block;
-	min-height: calc(1em * 1.6); /* font x line height */
+	min-height: calc(1em * var(--line-height)); /* font x line height */
 	width: 100%;
 	margin: 0;
 	padding: 0;
