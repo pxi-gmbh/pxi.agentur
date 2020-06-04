@@ -13,25 +13,23 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/.git-ftp-ignore",
-		"oF": 0
+		"oF": 1
 		},
-	"/.github/workflows/main.yml": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/.github/workflows/main.yml",
+	"/.github": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/.github",
 		"oF": 0
 		},
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/.gitignore",
-		"oF": 0
+		"oF": 1
 		},
 	"/_entwuerfe": {
 		"ft": 65536,
@@ -1112,7 +1110,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-tar",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 612835828.89644694
+	"lastBuiltDate": 612974007.60167694
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3222,7 +3220,7 @@
 	"rollupExternals": "",
 	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
 	"rollupTreeshakingEnabled": 1,
-	"skippedFoldersString": "/_entwuerfe",
+	"skippedFoldersString": "/_entwuerfe, /.github",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,
