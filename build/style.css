@@ -52,7 +52,7 @@
   --type-scale-h1:     calc(var(--type-scale-base) * 2.618rem + 1vw);
   --type-scale-huge:   calc(var(--type-scale-base) * 3.665rem + 1vw);
   --line-height: 1.45;
-  --vertical-margins: 1rem;
+  --vertical-margins: 2rem;
   /* standard margin-top for vertical rhythm */
   --border-radius: 3px;
   --box-shadow-x: initial;
