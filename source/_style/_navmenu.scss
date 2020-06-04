@@ -1,6 +1,22 @@
-// this drop-down navigation menu is optimized for markdown-generated HTML
-// using unordered lists and H2 inside of a nav-element with class .nav--article
-// the drop-down effect works without JavaScript
-// links to the IDs "open" and "close" prompt a view change, using the hashchange in the URL
-// progressive enhancement:
-// a utility script triggers the "close"-link via JavaScript when clicking outside the drop-down element
+#nav-menu {
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-shadow: var(--drop-shadow);
+}
+#nav-menu ul {
+  list-style: none;
+}
+#nav-menu a:not([aria-current]) {
+  text-decoration: none;
+}
+#nav-menu .logo-type {
+  display: none;
+}
+@media all and (min-width: $break-wide){
+  #nav-menu .logo-type {
+    display: initial;
+  }
+}

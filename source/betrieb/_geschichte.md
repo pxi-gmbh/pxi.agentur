@@ -1,5 +1,4 @@
-Es ist 2020. Wir bei <span class="logo-type">px&hairsp;|&hairsp;i</span> haben beschlossen, unser Labor zu öffnen. Wir treten mit einer Kernbesatzung nun selbst als Agentur für gestalterische Strategie-Entwicklung auf.
-<label for="aside--es-ist-2020" class="aside-toggle" role="button" aria-pressed="false" aria-label="Randbemerkung anzeigen" onkeypress="toggleButtonKeyPress()" onclick="toggleButtonClick()" tabindex="0">⨭ …</label>
+Es ist 2020. Wir bei <span class="logo-type font-family:display ">px&hairsp;|&hairsp;i</span> haben beschlossen, unser Labor zu öffnen. Wir treten mit einer Kernbesatzung nun selbst als Agentur für gestalterische Strategie-Entwicklung auf. <label for="aside--es-ist-2020" class="aside-toggle" role="button" aria-pressed="false" aria-label="Randbemerkung anzeigen" onkeypress="toggleButtonKeyPress()" onclick="toggleButtonClick()" tabindex="0">⨭ …</label>
 
 <input id="aside--es-ist-2020" type="checkbox" class="aside-toggle"/>
 

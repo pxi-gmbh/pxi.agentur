@@ -26,7 +26,7 @@ Menschen, die auf Ihre Strategie einwirken, lassen sich in drei Kategorien zusam
 
 
 
-###Wie machen wir das?
+### Wie machen wir das?
 
 Wir bieten Ihnen und Ihrer Belegschaft Seminare und Klausuren, in denen wir gemeinsam Erkenntnisse und Kompetenzen erarbeiten. Wir übersetzen die Erkenntnisse in Artefakte und Impulse zur Anleitung und Vermittlung. Wir [befähigen](/befaehigung/) Sie zum Erfolg und begleiten Sie mit Führung zur Selbstwirksamkeit.
 

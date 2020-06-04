@@ -1,13 +1,17 @@
-<form id="cta-form" class="text-left" action="https://mail.pxi.gmbh/sendy/subscribe" method="POST" accept-charset="utf-8">
-  <input name="progress" id="progress" type="checkbox" class="hide-visually">
-  <label for="progress" class="button">mehr zum Thema</label>
-  <div class="form-progress">
-    <label for="email" ><span>E-Mail</span><input type="text" name="email" id="email" required /></label>
-    <input type="checkbox" name="gdpr" id="gdpr" required checked="checked"/> <label for="gdpr"> <i>Ich möchte bei der Folien-Gestaltung Zeit sparen und das Startpaket für bessere PowerPoint-Präsentationen erhalten. Außerdem will ich wissen, was es mit dem Gorilla auf sich hat und Updates zum Paket bekommen. Kostenlos und unverbindlich.</i></label>
+<form id="cta-form" action="https://mail.pxi.gmbh/sendy/subscribe" method="POST" accept-charset="utf-8">
+  <div class="cta-form--start cta--primary text-align:center margin-top:double" style="--cta-padding:.5rem;">
+    <a href="#cta-form">zum kostenlosen Startpaket</a>
+    <p><small style="max-width:80%;"><i>eine Arbeitsprobe, mit der Sie sofort Kniffe ausprobieren und Zeit sparen können</i></small></p>
+  </div>
+
+  <div class="cta-form--progress">
+    <a href="#close" class="font-size:small" style="float:right;--append:' ✕'">schließen</a>
+    <label for="email">E-Mail <input type="text" name="email" id="email" required /></label>
+    <label for="gdpr" class="font-size:small">Ich möchte bei der Folien-Gestaltung Zeit sparen und außerdem wissen, was es mit dem Gorilla auf sich hat. Updates, kostenlos und unverbindlich. <input type="checkbox" name="gdpr" id="gdpr" required checked="checked"/></label>
     <!-- TODO Hinweis und Link: Hier ein früherer Beitrag als Beispiel -->
     <div>
-      <p><a href="ppt-startpaket.zip" class="cta--secondary">Dateien herunterladen</a></p>
-      <small>Sie bekommen automatisch die aktuelle Version zur Verfügung gestellt und erhalten Informationen zum Präsentations-Paket. Sie können jederzeit mit einem Klick oder einer Notiz an uns die Benachrichtigungen abbestellen. Ihre Kontaktdaten behandeln wir mit höchster Sorgfalt. Siehe <a href="/rechtliches.html#datenschutz" target="_blank">[Unsere Datenschutz&shy;erklärung]</a></small>
+      <div class="cta--secondary text-align:center margin-top:double" style="--cta-padding:.2rem;"><a href="ppt-startpaket.zip">Dateien herunterladen</a></div>
+      <p class=""><small><i>Sie bekommen immer die aktuelle Version und Informationen zum Präsentations-Paket. Sie können jederzeit mit einem Klick oder einer Notiz an uns die Benachrichtigungen abbestellen. Ihre Kontaktdaten behandeln wir mit höchster Sorgfalt. Siehe <a href="/rechtliches.html#datenschutz" target="_blank">unsere Datenschutz-Erklärung.</a></i></small><p>
     </div>
   </div>
   <div style="display:none;">
@@ -28,7 +32,7 @@
   "+..." sind Attribute für passgenaue Informationsangebote per E-Mail. mit "true" aktivieren
   "-lp..." sind Marker für besuchte Landingpages, die wir in Mails an diese Person vermeiden
   -->
-  <div class="form-progress text-center">
-    <input class="cta--primary" type="submit" name="submit" id="submit" value="mitlesen und mitreden"/>
+  <div class="cta-form--progress text-center">
+    <input class="cta--primary" style="--cta-padding:.5rem;" type="submit" name="submit" id="submit" value="Updates erhalten"/>
   </div>
 </form>

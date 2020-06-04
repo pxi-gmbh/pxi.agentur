@@ -4,10 +4,7 @@
 
 All unsere Methoden sind kognitions-wissenschaftlich motiviert: wir wissen gern, *warum* bestimmte Muster ihre Wirkung entfalten. Die für uns wichtigsten Prinzipien orientieren sich an den Kategorien
 
-- [Visualisierung][]
-- [Erzählung][]
-- [Schablonen][]
-- [Projektion][]
+[Visualisierung][] | [Erzählung][] | [Schablonen][] | [Projektion][]
 
 
 
@@ -36,7 +33,7 @@ Es gibt eine ganze Menge etablierter Formate zur Visualisierung. Manche davon pa
 
 <input id="aside--andere-unserer-diagramme" type="checkbox" class="aside-toggle"/>
 
-**Beispiel**: [Mind-Maps](/visualisieren/mind-map/) können Gedankenfetzen zusammen fassen. Sie notieren und ordnen dabei alles, was Ihnen durch den Kopf fließt, nach dem Prinzip der freien Assoziation.
+**Beispiel**: [Mind-Maps](/kompetenz/visualisieren/mind-map/) können Gedankenfetzen zusammen fassen. Sie notieren und ordnen dabei alles, was Ihnen durch den Kopf fließt, nach dem Prinzip der freien Assoziation.
 
 
 

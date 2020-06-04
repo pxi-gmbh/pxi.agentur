@@ -9,7 +9,11 @@
 /* style banner-information for a document */
 [role="banner"]{
 }
-
+main {
+  header {
+    margin-top: 10rem;
+  }
+}
 aside,
 [role="complementary"]{}
 
@@ -18,15 +22,6 @@ aside,
     background: var(--color-base-dark);
     color: var(--color-base-light);
     margin: 0;
-}
-[role="contentinfo"] a {
-	color: var(--color-base-light);
-}
-[role="contentinfo"] [role="navigation"] a {
-    padding: 0.2em;
-    padding-left: 0.3em;
-    padding-right: 0.3em;
-    border-radius: 0.1em;
-    color: var(--color-base-light);
-    background: var(--color-accent3-75);
+    margin-top: 4rem;
+    padding: 2em;
 }

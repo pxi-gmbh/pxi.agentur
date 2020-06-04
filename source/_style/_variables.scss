@@ -18,8 +18,8 @@ $break-wide: 1162px; // can't use css-variables for media queries
 // (add 20% steps to lighten, darken through transparent pseudo-element with white/black background)
 // check contrasts with https://colorable.jxnblk.com/
 /* off white & off black: works better on scroll than true black on OLED */
---color-base-light: #fefefe;
---color-base-dark: #090909;
+--color-base-light: #ffffff;
+--color-base-dark: #090909; /* don't use true black, it produces artifacts on OLED screens when scrolling */
 
 /* grey */
 --color-base-3: rgba(149, 148, 148, 1); /* #959494 */
@@ -78,6 +78,8 @@ $break-wide: 1162px; // can't use css-variables for media queries
 // TODO find proper solution for molten line-height, that expands with window width
 --line-height: 1.45;
 
+--vertical-margins: 1rem; /* standard margin-top for vertical rhythm */
+
 // AESTHETICS
 --border-radius: 3px;
 
@@ -89,28 +91,28 @@ $break-wide: 1162px; // can't use css-variables for media queries
 --box-shadow-inset: initial;
 /* overwrite properties of the box shadow by defining different variables locally */
 --drop-shadow:  var(--box-shadow-x, 1px) /* set theme default value here */
-                var(--box-shadow-y, 4px)
-                var(--box-shadow-blur, 8px)
+                var(--box-shadow-y, 3px)
+                var(--box-shadow-blur, 15px)
                 var(--box-shadow-spread, 0)
-                var(--box-shadow-color, var(--color-base-dark)) /* "currentcolor" uses color property of font */
+                var(--box-shadow-color, var(--color-base-3))
                 var(--box-shadow-inset, ); /* no inset = space " " -> switch to inset with "inset" */
 // use .foo { box-shadow: var(--drop-shadow); }
 // .foo:active { -box-shadow-y: 2em; box-shadow: var(--drop-shadow); }
-
 --glow-color: initial;
 --glow-spread: initial;
---glow: -5px -5px 10px var(--glow-spread) var(--glow-color, currentcolor),
-         5px  5px 10px var(--glow-spread) var(--glow-color, currentcolor);
+--glow: -3px -3px 20px var(--glow-spread, 0) var(--glow-color, currentcolor),
+         3px  3px 20px var(--glow-spread, 0) var(--glow-color, currentcolor);
 
-// HELPER-JS
-// pass user inputs through to CSS via variables
+// HELPER
 /* variables derived from JavaScript helper.js */
 /*
+// TODO create form slider with --input
 --scroll
 --input
 --mouse-x
 --mouse-y
 */
+--width: initial; //set width for elements (like buttons) to 100% inline
 
 // use inline styles or JS to create a pseudo-element with content
 --prepend: initial;

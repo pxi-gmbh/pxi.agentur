@@ -1,59 +1,22 @@
 #cta-form {
   border:none;
-  label {
-    display:block;
-    position:relative;
-  }
 }
-.form-progress {
-  margin-top:-3em;
-  padding:1em;
-  background-color:#eee;
-  position:relative;
-  z-index:1;
-  min-height:8em;
-  box-shadow: 0 3px 3px #999;
-  label {
-    display:block;
-    width:100%;
-    padding:0;
-    margin:0;
-    span {
-      display:inline-block;
-      width:4em;
-      margin:0;
-      border:0;
-    }
-    input {
-      width:calc(100% - 4em);
-      margin:0;
-    }
-  }
+.cta-form--progress {
+  position: relative;
+  padding: var(--vertical-margins);
+  border-radius: var(--border-radius);
+  box-shadow: var(--drop-shadow);
 }
-
-
-.form-progress:not(:first-child) {
+.cta-form--progress {
   display: none;
 }
-input[type="radio"]:checked ~ .form-progress,
-input[type="checkbox"]:checked ~ .form-progress {
+#cta-form:target .cta-form--progress {
   display: block;
-  animation: pop-in 0.4s linear 1;
+  animation: pop-in 0.3s linear 1;
 }
-#cta-form:target .form-progress {
-  display: block;
-  animation: pulse 0.4s linear 1;
-}
-label[for="name"],
-label[for="email"],
-label[for="firma"] {
-  font-variant: small-caps;
+#cta-form:target .cta-form--start {
+  display:none;
 }
 label[for="gdpr"],
 label[for="news"] {
-  display: block;
-  float: right;
-  font-family: var(--font-system);
-  font-weight: normal;
-  width: calc(100% - 4em);
 }

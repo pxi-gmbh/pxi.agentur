@@ -5,12 +5,7 @@ Während wir Arbeitsproben und Illustrationen für Sie vorbereiten, lassen Sie u
 
 **Notiz**: Die Entscheidung ist noch frisch und wir erfinden uns als Marke gerade neu. Unsere Werte und Ziele sind allerdings schon lange etabliert und geben unserer Arbeit seit Jahren einen stabilen Anker.</span>
 
-<div class="header-1">
-
-- Integrität
-- Menschlichkeit
-- Exzellenz
-
-</div>
+<br>
+<h3 class="margin-top:0">Integrität | Menschlichkeit | Exzellenz</h3>
 
 *verspielt, wissbegierig, neugierig, aufgeschlossen, begeisterungsfähig, geradeaus, empathisch, konsistent, wertbewusst, wertschätzend, methoden-fokussiert, wissenschafts-gläubig*

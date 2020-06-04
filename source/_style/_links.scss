@@ -1,54 +1,47 @@
 a {
-	color: var(--color-base-45);
-	// text-decoration: none;
+  color: var(--color-base-45);
   text-underline-position: under;
-	cursor: pointer;
-	text-decoration-skip: objects;
-	text-decoration-skip-ink: auto;
-	text-decoration-color: var(--color-accent1-45);
-	transition: all 0.3s ease;
-	&:hover,
-	&:active,
-	&:focus {
-		text-decoration: underline;
-	}
+  cursor: pointer;
+  text-decoration-skip: objects;
+  text-decoration-skip-ink: auto;
+  text-decoration-color: var(--color-accent1-45);
+  transition: all 0.2s ease;
+  &:hover,
+  &:active,
+  &:focus {
+    color: var(--color-base-75);
+    text-decoration: underline;
+    text-decoration-color: var(--color-accent2-45);
+  }
 }
-a:hover {
-  text-shadow: 0 0 rgba(255,255,255,0), 3px 3px 3px green, 15px 15px 0 blue, 30px 30px 0 indigo, 45px 45px 0 violet;
+sup a {
+  color: var(--color-accent1-45);
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+  &::before {
+    content: "[";
+
+  }
+  &::after {
+    content: "]";
+  }
 }
-main a:not(.button) {
-	text-decoration: underline;
-}
-	sup a {
-		color: var(--color-accent1-45);
-		text-decoration: none;
-		&:hover {
-			text-decoration: none;
-		}
-		&::before {
-			content: "[";
-
-		}
-		&::after {
-		content: "]";
-		}
-	}
-
-
 /*
-  [href]:focus {
-      outline:none
-  }
+[href]:focus {
+outline:none
+}
 
-  [href]:focus:not(:active) {
-      outline: .125rem solid
-  }
+[href]:focus:not(:active) {
+outline: .125rem solid
+}
 
-  [tabindex="-1"]:focus {
-      outline:none
-  }
+[tabindex="-1"]:focus {
+outline:none
+}
 
-  [href] {
-      text-decoration-thickness:.125em !important
-  }
-  */
+[href] {
+text-decoration-thickness:.125em !important
+}
+*/

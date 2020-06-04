@@ -1,20 +1,20 @@
-## Angebot
-
 Unser Angebot erstreckt sich auf gestalterische und beratende Arbeit zur
 
-[Orientierung](/orientierung/ "Orientierung" class="cta--secondary") | [Befähigung](/befaehigung/ "Befähigung" class="cta--secondary") | [Präsentation](/praesentation/ "Präsentation" class="cta--secondary")
+[Orientierung](#orientierung "Orientierung" class="cta--secondary") | [Befähigung](#befaehigung "Befähigung" class="cta--secondary") | [Präsentation](#praesentation "Präsentation" class="cta--secondary")
 
 von unternehmerischer Wertschöpfung und Sinn-Stiftung.
 
 
 
-### Orientierung
+### Orientierung [orientierung]
 
-Orientierung bieten wir in Beratung, begleitender Recherche und Anleitung anhand von [Sinn-Kartografie][]. Das ist unsere eigens entwickelte Methodik, mit visuellen Denk-Werkzeugen die Suche nach Erkenntnis zu vereinfachen.
+Orientierung bieten wir in Beratung, begleitender Recherche und Anleitung anhand von [Sinn-Kartografie](#visualisierung). Das ist unsere eigens entwickelte Methodik, mit visuellen Denk-Werkzeugen die Suche nach Erkenntnis zu vereinfachen.
+
+*Mehr erfahren?* Auf der [Übersichts-Seite für Orientierung](/orientierung/).
 
 
 
-### Befähigung
+### Befähigung [befaehigung]
 
 Befähigung gehört bei uns zu jeder Beratung und auch zu jedem Gestaltungs-Auftrag dazu. Wir vermitteln Ihnen Kompetenzen, die anstehenden Aufgaben besser zu verstehen und Lösungsräume zu erkennen. Wir vermitteln *Selbst-Wirksamkeit*
 <label for="aside--befaehigung-gehoert-bei-uns" class="aside-toggle" role="button" aria-pressed="false" aria-label="Randbemerkung anzeigen" onkeypress="toggleButtonKeyPress()" onclick="toggleButtonClick()" tabindex="0">⨭ …</label>
@@ -23,9 +23,10 @@ Befähigung gehört bei uns zu jeder Beratung und auch zu jedem Gestaltungs-Auft
 
 **Lesematerial**: In der Psychologie gibt es eigene Lern- und Kognitions-Theorien zu Erwartungen der [Selbst-Wirksamkeit (Wikipedia)](https://de.wikipedia.org/wiki/Selbstwirksamkeitserwartung).
 
+*Mehr erfahren?* Auf der [Übersichts-Seite für Befähigung](/befaehigung/).
 
 
-### Präsentation
+### Präsentation [praesentation]
 
 Präsentation die Kunst, Informationen eine verständliche Gestalt zu geben. Für uns umfasst das jedes Medium, in dem wir Erkenntnisse an ein Publikum vermitteln wollen.
 
@@ -37,3 +38,5 @@ Wir bringen Ihnen bei, Ihre eigenen Medien für die Vermittlung zu gestalten. Da
 <input id="aside--praesentation-ist-die-kunst" type="checkbox" class="aside-toggle"/>
 
 **Notiz**: *Spannend, aber aufwändig. Immerhin wurden wir für diese Art von Arbeit bereits [ausgezeichnet](/betrieb/index.html#erfolge).*
+
+*Mehr erfahren?* Auf der [Übersichts-Seite für Präsentation](/praesentation/).

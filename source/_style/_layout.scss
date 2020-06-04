@@ -1,190 +1,151 @@
 /* LAYOUT
- * - layout utility classes (float right/left)
- * -
- */
- :root {
-    --flexgrid-margin: 0.5rem;
-    --flexgrid-columnwidth: 60ch;
-    /* ch uses the character "0" of the active font to calculate width
-       rule-of-thumb use abt 80% of target character count in body text for max width */
- }
- .flexgrid {
-   display: flex; /* flexbox based grid system. No Flexbox support = single column layout */
-   flex-wrap: wrap; /* items will start a new row when there's not enough room on the current one */
-   margin: calc(var(--flexgrid-margin) / 2 * -1); /* compensate for gutters (margins of child-elements) */
-   overflow: hidden;
- }
- .flexgrid > * {
-   flex: 1 0 var(--flexgrid-columnwidth); /* no breakpoints: flex-basis for width, items can grow to use available space (1) but not shrink (0). */
-   margin: var(--flexgrid-margin); /* create gutters between items (these double up) */
- }
+* - layout utility classes (float right/left)
+* -
+*/
+:root {
+  --flexgrid-margins: initial;
+  --flexgrid-columnwidth: initial;
+  --flexgrid-justify: space-between;
+  /* ch uses the character "0" of the active font to calculate width
+  rule-of-thumb use abt 80% of target character count in body text for max width */
+}
+.flexgrid {
+  display: flex; /* flexbox based grid system. No Flexbox support = single column layout */
+  flex-wrap: wrap; /* items will start a new row when there's not enough room on the current one */
+  margin: -1rem;//calc(var(--flexgrid-margin) / 2 * -1); /* compensate for gutters (margins of child-elements) */
+  justify-content: var(--flexgrid-justify, space-between);
+  overflow: hidden;
+}
+.flexgrid > * {
+  flex: 1 0 var(--flexgrid-columnwidth, 24ch); /* no breakpoints: flex-basis for width, items can grow to use available space (1) but not shrink (0). */
+  margin: var(--flexgrid-margins, 1rem); /* create gutters between items (these double up) */
+}
 :root {
   --page-margins: initial;
+  --page-width: initial;
 }
-.pagegrid {
+main {
   position:relative;
   width: 100%;
   padding-left: 1em;
   padding-right: 1em;
 }
-.pagegrid > * {
+main > * {
   max-width: 60ch;
   margin-left: var(--page-margins, auto);
   margin-right: var(--page-margins, auto);
   // TODO testen: sollte klappen, mit class="--page-margins: auto;"
   // die Ausrichtung auch der child-elements wieder zu zentrieren
 }
-
-	@media screen and (min-width: $break-wide) {
-		/* give more room to breathe on wider screens */
-		.pagegrid > * {
-      width: 60%;
-      margin-left: 5%;
-		}
-	}
-  /* universal margin-notes: designed to work as snippets in markdown documents */
-  //<label for="aside--ID-AUS-ANFANG-DES-ABSATZES" class="aside-toggle" role="button" aria-pressed="false" aria-label="Randbemerkung anzeigen" onkeypress="toggleButtonKeyPress()" onclick="toggleButtonClick()" tabindex="0">⨭ …</label>
-  //<input id="aside--ID-AUS-ANFANG-DES-ABSATZES" type="checkbox" class="aside-toggle"/>
-  // whatever element comes next will be turned into a margin note. A (markdown-generated) paragraph or a video or figure alike
-  input.aside-toggle + * {
-  	float: right;
-  	clear: right;
-  	margin-right: -55%;
-  	width: 50%;
-  	margin-top: -1rem;
-  	margin-bottom: 1rem;
-  	font-size: calc(var(--type-scale-normal) * 0.8);
-  	line-height: calc(var(--line-height) / 0.8);
-  	vertical-align: baseline;
+@media screen and (min-width: $break-wide) {
+  /* give more room to breathe on wider screens */
+  main > * {
+    // width: var--(page-width, 60%);
+    margin-left: var(--page-margins, 1%);
   }
-  input.aside-toggle {
-  	display: none;
-  }
+}
+/* universal margin-notes: designed to work as snippets in markdown documents */
+//<label for="aside--ID-AUS-ANFANG-DES-ABSATZES" class="aside-toggle" role="button" aria-pressed="false" aria-label="Randbemerkung anzeigen" onkeypress="toggleButtonKeyPress()" onclick="toggleButtonClick()" tabindex="0">⨭ …</label>
+//<input id="aside--ID-AUS-ANFANG-DES-ABSATZES" type="checkbox" class="aside-toggle"/>
+// whatever element comes next will be turned into a margin note. A (markdown-generated) paragraph or a video or figure alike
+input.aside-toggle + * {
+  float: right;
+  clear: right;
+  margin-right: calc(-38% + 1em);
+  width: calc(38% - 2em);
+  margin-top: -1.5rem;
+  margin-bottom: 2.5rem;
+  font-size: calc(var(--type-scale-normal) * 0.75);
+  line-height: calc(var(--line-height) / 0.75);
+  vertical-align: baseline;
+}
+input.aside-toggle {
+  display: none;
+}
+label.aside-toggle {
+  display: none;
+  color: var(--color-accent1-45);
+  cursor: pointer;
+}
+/* collapse sidenotes on small screens */
+@media all and (max-width: $break-wide) {
   label.aside-toggle {
-  	display: none;
-  	color: var(--color-accent1-45);
-  	cursor: pointer;
+    display: inline;
   }
-  /* collapse sidenotes on small screens */
-  @media all and (max-width: $break-wide) {
-  	label.aside-toggle {
-  		display: inline;
-  	}
-  	input.aside-toggle + * {
-  		display: none;
-  	}
-  	input.aside-toggle:checked + * {
-  		display: block;
-  		clear: both;
-  		width: 100%;
-  		margin: 0;
-  		margin-top: 0.5rem;
-  		margin-bottom: 0.5rem;
-  		animation: pop-in 0.3s;
-  	}
+  input.aside-toggle + * {
+    display: none;
   }
-
-
-
-  /* tables from divs with flexbox */
-  // add style="order:N" to table cell elements inline
-  .flex-table {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
+  input.aside-toggle:checked + * {
+    display: block;
+    clear: both;
+    width: 100%;
     margin: 0;
-    padding: 0;
-    hyphens: auto;
+    margin-top: .5rem;
+    padding-bottom: .5rem;
+    animation: pop-in 0.3s;
   }
-  .flex-table-cell {
-    box-sizing: border-box;
-    width: 100%;  // Default to full width
+}
+
+/* tables from divs with flexbox */
+// add style="order:N" to table cell elements inline
+.flex-table {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  hyphens: auto;
+}
+.flex-table-cell {
+  box-sizing: border-box;
+  width: 100%;  /* Default to full width */
+  margin: 0;
+  margin-top: 1rem;
+  padding: 0.8em 0.5em;
+  overflow: hidden; /* or flex might break */
+  border: none;
+  > h1,
+  > h2,
+  > h3,
+  > h4,
+  > h5,
+  > h6 {
     margin: 0;
-    margin-top: 1rem;
-    padding: 0.8em 0.5em;
-    overflow: hidden; // or flex might break
-    border: none;
-    > h1,
-    > h2,
-    > h3,
-    > h4,
-    > h5,
-    > h6 {
-    	margin: 0;
-    	}
-    > img {
-    	margin: auto;
-    	}
   }
-  /* table column sizing */
-  .flex-table-twocols {
-  	> .flex-table-cell  {
-  		width: calc(50% - 1em);
-  	}
+  > img {
+    margin: auto;
   }
-  .flex-table-threecols {
-  	> .flex-table-cell {
-  		width: calc(33.33% - 1em);
-  	}
+}
+/* table column sizing */
+.flex-table-twocols {
+  > .flex-table-cell  {
+    width: calc(50% - 1em);
   }
-  .flex-table-fourcols {
-  	> .flex-table-cell {
-  		width: calc(25% - 1em);
-  	}
+}
+.flex-table-threecols {
+  > .flex-table-cell {
+    width: calc(33.33% - 1em);
   }
-  .flex-table-fivecols {
-  	> .flex-table-cell {
-  		width: calc(20% - 1em);
-  	}
+}
+.flex-table-fourcols {
+  > .flex-table-cell {
+    width: calc(25% - 1em);
   }
-  /* collapse table on small screens */
-  @media all and (min-width: 620px) {
-  	.flex-table  {
-  		display: block;
-  		> .flex-table-cell {
-  			width: 100%;
-  		}
-  	}
+}
+.flex-table-fivecols {
+  > .flex-table-cell {
+    width: calc(20% - 1em);
   }
-    /* for links as cells limit link underline and color to last child elements */
-    a.flex-table-cell {
-      display: block;
-      color: var(--color-base-dark);
-      &:hover,
-      &:active,
-      &:focus {
-      	transform: translateY(-2px);
-      	text-decoration: none;
-      }
-      *:last-child {
-      	  color: var(--color-accent1-45);
-    	}
-      *:last-child:hover {
-    	  text-decoration: underline;
-      }
+}
+/* collapse table on small screens */
+@media all and (max-width: 620px) {
+  .flex-table  {
+    display: block;
+    > .flex-table-cell {
+      width: 100%;
     }
-
-
-
-
-
-.center-horizontal {
-	 position: absolute;
-	 left: 50%;
-	 transform: translateX(-50%);
-}
-.full-width { /* to stretch elements (like images) inside of centered columns beyond their parent container to fullscreen window width */
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-}
-
-.spaced:before { /* adds a flourish to seperate elements */
-	display: block;
-	content: "—";
-	text-align: center;
+  }
 }

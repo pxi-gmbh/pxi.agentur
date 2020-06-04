@@ -1,10 +1,20 @@
 <!-- $title = Agentur: Präsentation -->
 <!-- $description = Präsentation ist die Gestaltung von Information in verständliche Form -->
 <!-- @include ../_includes/_header -->
-<main id="main" role="main">
+<main id="main" role="main" style="--page-margins:auto;">
   <header>
     <h1 class="text-center">Präsentation</h1>
   </header>
+  <section id="intro">
+    <p><i>Präsentation ist die Kunst, Informationen eine verständliche Gestalt zu geben. Das tun wir in Folien, Animationen, Dokumenten und Postern. Entwickeln Sie mit uns die passende Architektur für Ihre Ideen: auf der Bühne, in der Konferenz oder mit Medien-Artefakten.</i></p>
+    <nav class="text-align:center">
+      <a href="#folien">Folien</a> |  <a href="schulung">Schulung</a> | <a href="artefakte">Artefakte</a>
+    </nav>
+    <img src="praesentation-gorilla.jpg" alt="Erschöpfte Person und Gorilla auf einer Bühne vor schlafendem Publikum">
+  </section>
+  <section>
+    <!-- @include _cta-form-ppt.kit -->
+  </section>
   <section id="praesentation">
     <!-- @compile _praesentation.md -->
   </section>
@@ -18,20 +28,22 @@
     <!-- @include ../_includes/angebot-prozesse -->
   </section>
 
-  <video autoplay loop muted class="drop-shadow" alt="Animation: Stellen Sie Ihr Leistungspaket selbst zusammen">
+  <video autoplay loop muted class="margin-top:double" alt="Animation: Stellen Sie Ihr Leistungspaket selbst zusammen">
   <source src="praesentation.mp4" type="video/mp4">
     Entschuldigung, Ihr Browser unterstützt das Video-Format nicht.
   </video>
+  <section style="max-width:100%">
   <!-- @include _pakete-ppt -->
+  </section>
   <section>
     <!-- @include ../_includes/angebot-garantie -->
   </section>
   <!-- TODO create fallstudien /berichte -->
   <!-- TODO create section explaining ancillary/complementary services, link to subsections -->
-  <footer class="text-small text-center">
-    <p>Wenn wir Ihnen sonst eine Frage beantworten können, tun wir das gerne.</p>
+  <footer class="font-size:small text-align:center margin-top:double">
+    <p><i>Wenn wir Ihnen sonst eine Frage beantworten können, tun wir das gerne.</i></p>
     <p>Kontakt: <span class="js--email">agentur&nbsp;[at]&nbsp;pxi.gmbh</span></p>
-    <p>Noch etwas vergessen?<br><a href="#cta-form">Das Beispielpaket</a> herunterladen.</p>
+    <p><i>Noch etwas vergessen?<br><a href="#cta-form">Das Beispielpaket</a> herunterladen.</i></p>
   </footer>
 </main>
 <!-- @include ../_includes/_footer -->

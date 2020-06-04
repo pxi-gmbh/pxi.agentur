@@ -75,37 +75,6 @@ function frameBreaker()
   }
 }
 
-// Helper for _navmenu.css
-// close Menu with ID #open if the user clicks outside of it
-document.addEventListener("click", (evt) => {
-    const flyoutElement = document.getElementById("open");
-    let targetElement = evt.target; // clicked element
-    do {
-        if (targetElement == flyoutElement) {
-            // This is a click inside. Do nothing, just return.
-            // document.getElementById("flyout-debug").textContent = "Clicked inside!"; // add div with id flyout debug to HTML, comment in for debugging
-            return;
-        }
-        // Go up the DOM
-        targetElement = targetElement.parentNode;
-    } while (targetElement);
-    // This is a click outside.
-    // Simulate a click event on link to update :active #ID to #close
-    var simulateClick = function (elem) {
-    	// Create our event (with options)
-    	var evt = new MouseEvent('click', {
-    		bubbles: true,
-    		cancelable: true,
-    		view: window
-    	});
-    	// If cancelled, don't dispatch our event
-    	var canceled = !elem.dispatchEvent(evt);
-    };
-    var closeNavMenu = document.querySelector('#nav--close'); // execute on navigation-closing link ID
-    simulateClick(closeNavMenu);
-    // document.getElementById("flyout-debug").textContent = "Clicked outside!"; // see debug above
-});
-
 
 // accessibility helper for elements (other than <buttons>) used as toggle buttons
 // call from within HTML-element with onclick="toggleButtonClick()" and onkeypress="toggleButtonKeyPress()"
@@ -141,6 +110,7 @@ function toggleButton() {
 }
 
 
+/*
 // UNIVERSAL CSS-VARIABLE HELPERS
 // give mouse input via coordinates to CSS variables --mouse-x & --mouse-y
 function mouseMove() {
@@ -180,3 +150,4 @@ function scrollValue() {
 	});
 }
 }
+*/
