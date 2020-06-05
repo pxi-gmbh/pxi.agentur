@@ -31,11 +31,192 @@
 		"oAP": "/build/.gitignore",
 		"oF": 1
 		},
-	"/_entwuerfe": {
-		"ft": 65536,
+	"/_drafts/_TEMP-sortieren/_arbeitsprobe.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "/build/_entwuerfe",
+		"oAP": "/build/_drafts/_TEMP-sortieren/_arbeitsprobe.html",
 		"oF": 0
+		},
+	"/_drafts/_TEMP-sortieren/_ausrichtung-schablone-momentaufnahme.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_drafts/_TEMP-sortieren/_ausrichtung-schablone-momentaufnahme.html",
+		"oF": 0
+		},
+	"/_drafts/_TEMP-sortieren/_chat.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_drafts/_TEMP-sortieren/_chat-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/_drafts/_TEMP-sortieren/_chat.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_drafts/_TEMP-sortieren/_chat.html",
+		"oF": 0
+		},
+	"/_drafts/_TEMP-sortieren/_glossar.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_drafts/_TEMP-sortieren/_glossar.html",
+		"oF": 0
+		},
+	"/_drafts/_TEMP-sortieren/_itf-chat.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_drafts/_TEMP-sortieren/_itf-chat.html",
+		"oF": 0
+		},
+	"/_drafts/_TEMP-sortieren/_ppt-cta-form.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_drafts/_TEMP-sortieren/_ppt-cta-form.html",
+		"oF": 0
+		},
+	"/_drafts/_TEMP-sortieren/_ppt-kurzbefehle.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_drafts/_TEMP-sortieren/_ppt-kurzbefehle.html",
+		"oF": 0
+		},
+	"/_drafts/_TEMP-sortieren/_ppt-morph.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_drafts/_TEMP-sortieren/_ppt-morph.html",
+		"oF": 0
+		},
+	"/_drafts/_TEMP-sortieren/_ppt-schnellzugriffsleiste.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_drafts/_TEMP-sortieren/_ppt-schnellzugriffsleiste.html",
+		"oF": 0
+		},
+	"/_drafts/_TEMP-sortieren/_ppt-startpaket.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_drafts/_TEMP-sortieren/_ppt-startpaket.html",
+		"oF": 0
+		},
+	"/_drafts/_TEMP-sortieren/_sichtbarkeit-geschlechtergerechte-sprache.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_drafts/_TEMP-sortieren/_sichtbarkeit-geschlechtergerechte-sprache.html",
+		"oF": 0
+		},
+	"/_drafts/_TEMP-sortieren/_stellen.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_drafts/_TEMP-sortieren/_stellen.html",
+		"oF": 0
+		},
+	"/_drafts/_TEMP-sortieren/_strategie-cta-form.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_drafts/_TEMP-sortieren/_strategie-cta-form.html",
+		"oF": 0
+		},
+	"/_drafts/_TEMP-sortieren/_videos-geistesblitze.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_drafts/_TEMP-sortieren/_videos-geistesblitze.html",
+		"oF": 0
+		},
+	"/_drafts/_TEMP-sortieren/ppt-begleitmaterial.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/_drafts/_TEMP-sortieren/ppt-begleitmaterial.html",
+		"oF": 0
+		},
+	"/_drafts/_TEMP-sortieren/werksschema--ausrichtung.md": {
+		"cB": 0,
+		"cS": 2,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_drafts/_TEMP-sortieren/werksschema--ausrichtung.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 1,
+		"pHT": 1,
+		"pME": 0,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/_drafts/kopier-vorlage.md": {
+		"cB": 0,
+		"cS": 2,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_drafts/kopier-vorlage.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 1,
+		"pHT": 1,
+		"pME": 0,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/_drafts/ppt-morph/ppt-morph.md": {
+		"cB": 0,
+		"cS": 2,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/_drafts/ppt-morph/ppt-morph.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 1,
+		"pHT": 1,
+		"pME": 0,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"/_html-code.html": {
 		"cB": 0,
