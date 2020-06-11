@@ -116,7 +116,10 @@
   /* simple dark mode to respect OS dark mode settings */
   :root {
     color: var(--color-base-light);
-    background-color: var(--color-base-dark); } }
+    background-color: var(--color-base-dark); }
+  #references img[src*=".png"], #references img[src*=".jpg"] {
+    -webkit-filter: invert(100%) hue-rotate(180deg);
+            filter: invert(100%) hue-rotate(180deg); } }
 
 html *,
 :after,

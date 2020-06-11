@@ -17,9 +17,13 @@
     background-color: var(--color-base-dark);
   }
   // TODO add color filter logic to images
-  //img[src*=".png"] {
-  //  filter: invert(1);
-  //}
+  #references img[src*=".png"], #references img[src*=".jpg"] {
+    filter: invert(100%)  hue-rotate(180deg);
+  //  inverting the colors switches all the hues around,
+  //  so we turn those back, keeping the change in lightness
+  //  this is not perfect in terms of vision, but very easy and a serviceable approximation
+  //  (lightness and hue don't track linearly in color perception)
+  }
 }
 html {
   // max-width: 160em; /* declare maximum range of screen size where design works */
