@@ -10,6 +10,8 @@
 {>>Schluss mit Frust in PowerPoint: Wie Sie mit ein paar einfachen Regeln stressfrei animieren lernen<<}
 {>>Morphen kann so einfach sein: Wie Sie mit ein paar einfachen Grundregeln das meiste aus PowerPoint-Animationen herausholen<<}
 {>>Was Sie über Morphen in PowerPoint wissen sollten<<}
+{>>Wenig bekannte Tricks, um bei Poweroint-Animationen viel Zeit zu sparen<<}
+{>>Mit dieser Methode sparen Sie Stunden beim Erstellen Ihrer PowerPoint-Präsentation<<}
 
 Dass PowerPoint-Präsentationen animierbar sind, ist allgemein bekannt.
 Aber wussten Sie auch, dass das Programm hierfür mehr Werkzeuge bereitstellt als nur die Registerkarte [Animationen]? 
