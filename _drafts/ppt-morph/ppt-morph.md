@@ -8,7 +8,8 @@
 {>>Wie Sie Ihre PowerPoint-Animationen auf ein neues Level heben mit diesen einfachen Morphing-Tricks<<}
 {>>Diese Morphing-Übersicht wird Ihr Ass im Ärmel: Verblüffen Sie in PowerPoint mit weniger Aufwand als je zuvor<<}
 {>>Schluss mit Frust in PowerPoint: Wie Sie mit ein paar einfachen Regeln stressfrei animieren lernen<<}
-{>>Morphing kann so einfach sein: Wie Sie mit ein paar einfachen Grundregeln das meiste aus PowerPoint-Animationen herausholen<<}
+{>>Morphen kann so einfach sein: Wie Sie mit ein paar einfachen Grundregeln das meiste aus PowerPoint-Animationen herausholen<<}
+{>>Was Sie über Morphen in PowerPoint wissen sollten<<}
 
 Dass PowerPoint-Präsentationen animierbar sind, ist allgemein bekannt.
 Aber wussten Sie auch, dass das Programm hierfür mehr Werkzeuge bereitstellt als nur die Registerkarte [Animationen]? 
