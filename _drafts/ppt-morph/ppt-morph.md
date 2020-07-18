@@ -24,9 +24,11 @@ Sicher haben Sie schon einmal die Registerkarte [Übergänge] genutzt, um das Ab
 
 Und sicher ist Ihnen dort auch das [Morphen] aufgefallen. Immerhin ist das gleich die erste angezeigte Option.
 
-#### Morphen ist mehr als nur ein Übergang
+#### Spezialfall Morphen: mehr als nur ein Übergang
 
-Beim Morphen versucht PowerPoint, alle Objekte auf der ersten Folie möglichst dynamisch in die Objekte auf der zweiten Folie zu verwandeln. Dadurch entsteht eine Animation. 
+Morphen ist ein Übergang, der unter anderen Optionen heraussticht. 
+
+Denn hier versucht PowerPoint, alle Objekte auf der ersten Folie möglichst dynamisch in die Objekte auf der zweiten Folie zu verwandeln. Dadurch entsteht eine flüssige Animation, die aussieht, als wäre sie innherhalb einer Folie gebaut worden.
 
 Eine Animation, die manchmal geradezu magisch ausfällt …
 
