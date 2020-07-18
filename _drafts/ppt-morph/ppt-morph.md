@@ -47,7 +47,7 @@ Die Antwort ist: Sie.
 Wenn Sie verstehen, was eigentlich hinter der Magie passiert, können Sie Morphen sehr wohl sinnvoll nutzen - und sich damit ein Animations-Werkzeug erschließen, das nicht nur Ihr Publikum bezaubert, sondern auch noch Ihre Arbeit minimiert.
 
 Das machen Sie schon? Super! Dann springen Sie hier zu den Profi-Tipps!
-{>>Das Wort "hier" oder "Profi-Tipss" muss noch mit dem entsprechenden Absatz "Wann Morphing funktioniert" weiter unten verlinkt werden.<<}
+{>>Das Wort "hier" oder "Profi-Tipps" muss noch mit dem entsprechenden Absatz "Wann Morphing funktioniert" weiter unten verlinkt werden.<<}
 
 Sie müssen das erst noch ausprobieren? Auch gut. Jetzt ist der beste Zeitpunkt. 
 Bitte treten Sie hinter die Kulissen und tun ganz einfach Folgendes:
