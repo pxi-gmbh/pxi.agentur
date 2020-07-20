@@ -10,7 +10,7 @@
 {>>Schluss mit Frust in PowerPoint: Wie Sie mit ein paar einfachen Regeln stressfrei animieren lernen<<}
 {>>Morphen kann so einfach sein: Wie Sie mit ein paar einfachen Grundregeln das meiste aus PowerPoint-Animationen herausholen<<}
 {>>Was Sie über Morphen in PowerPoint wissen sollten<<}
-{>>Wenig bekannte Tricks, um bei Poweroint-Animationen viel Zeit zu sparen<<}
+{>>Wenig bekannte Tricks, um bei PowerPoint-Animationen viel Zeit zu sparen<<}
 {>>Mit dieser Methode sparen Sie Stunden beim Erstellen Ihrer PowerPoint-Präsentation<<}
 {>>Animieren in PowerPoint: Wie Sie diese typischen Morphing-Fehler vermeiden<<}
 
