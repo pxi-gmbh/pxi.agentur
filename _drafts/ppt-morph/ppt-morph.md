@@ -15,7 +15,7 @@
 {>>Animieren in PowerPoint: Wie Sie diese typischen Morphing-Fehler vermeiden<<}
 
 Dass PowerPoint-Präsentationen animierbar sind, ist allgemein bekannt.
-Aber wussten Sie auch, dass das Programm hierfür mehr Werkzeuge bereitstellt als nur die Registerkarte [Animationen]? 
+Aber wussten Sie auch, dass das Programm hierfür mehr Werkzeuge bereitstellt als nur die Registerkarte [Animationen]?
 
 #### Animieren durch Übergänge
 
@@ -30,7 +30,7 @@ Und sicher ist Ihnen dort auch das [Morphen] aufgefallen. Immerhin ist das gleic
 
 #### Spezialfall Morphen: mehr als nur ein Übergang
 
-Morphen ist ein Übergang, der unter anderen Optionen heraussticht. 
+Morphen ist ein Übergang, der unter anderen Optionen heraussticht.
 
 Denn hier versucht PowerPoint, alle Objekte auf der ersten Folie möglichst dynamisch in die Objekte auf der zweiten Folie zu verwandeln. Dadurch entsteht eine flüssige Animation, die aussieht, als wäre sie innherhalb einer Folie gebaut worden.
 
@@ -44,21 +44,21 @@ Eine Animation, die manchmal geradezu magisch ausfällt …
 
 .… verflixt nochmal scheitert.
 
-Kein Wunder also, dass das Morphen ein Schattendasein führt in der Schublade für dunkle PowerPoint-Magie. Wer will schon einen Übergang nutzen, auf den eigentlich kein Verlass ist? 
+Kein Wunder also, dass das Morphen ein Schattendasein führt in der Schublade für dunkle PowerPoint-Magie. Wer will schon einen Übergang nutzen, auf den eigentlich kein Verlass ist?
 
 Die Antwort ist: Sie.
 
 Wenn Sie verstehen, was eigentlich hinter der Magie passiert, können Sie Morphen sehr wohl sinnvoll nutzen - und sich damit ein Animations-Werkzeug erschließen, das nicht nur Ihr Publikum bezaubert, sondern auch noch Ihre Arbeit minimiert.
 
-Das machen Sie schon? Super! Dann springen Sie hier zu den Profi-Tipps!
+Das machen Sie schon? Super! Dann springen Sie [hier zu den Profi-Tipps](#profi-tipps)!
 {>>Das Wort "hier" oder "Profi-Tipps" muss noch mit dem entsprechenden Absatz "Wann Morphing funktioniert" weiter unten verlinkt werden.<<}
 
-Sie müssen das erst noch ausprobieren? Auch gut. Jetzt ist der beste Zeitpunkt. 
+Sie müssen das erst noch ausprobieren? Auch gut. Jetzt ist der beste Zeitpunkt.
 Bitte treten Sie hinter die Kulissen und tun ganz einfach Folgendes:
 
 #### Wie Morphen funktioniert
 
-1. Legen Sie zwei Formen auf einer Folie an. 
+1. Legen Sie zwei Formen auf einer Folie an.
 *Für das Beispiel unten haben wir einfach zwei Quadrate genommen.*
 
 2. Kopieren Sie die Folie, sodass Sie eine zweite, identische Folie haben.
@@ -73,31 +73,31 @@ Bitte treten Sie hinter die Kulissen und tun ganz einfach Folgendes:
 
 4.	Immernoch auf der zweiten Folie klicken Sie oben im Menü auf die Registerkarte [Übergänge] und wählen dort [Morphen] aus.
 
-Schauen Sie sich das Ergebnis an! 
+Schauen Sie sich das Ergebnis an!
 
-Was ist passiert? 
+Was ist passiert?
 
-Die erste Form hat wie von Zauberhand ihre Farbe geändert. 
+Die erste Form hat wie von Zauberhand ihre Farbe geändert.
 Die zweite hat sich aus der Folie hinausbewegt.
 
 <video poster="" alt="Morph-Animation nach Anleitung" class="drop-shadow" controls loop muted preload="metadata"><source src="Morphen Beispiel simpel.mp4" type="video/mp4">Entschuldigung, Ihr Browser unterstützt das Video-Format nicht.</video>
 
-PowerPoint hat versucht, einen gleitenden Übergang von der Formen-Konstellation auf Folie 1 zu der Formen-Konstellation auf Folie 2 zu schaffen. 
+PowerPoint hat versucht, einen gleitenden Übergang von der Formen-Konstellation auf Folie 1 zu der Formen-Konstellation auf Folie 2 zu schaffen.
 
-Und weil auf beiden Folien die gleichen Formen vertreten sind - ob nun sichtbar oder außerhalb der Foliengrenzen - sieht das Ergebnis nicht wie ein Übergang zwischen zwei verschiedenen Folien aus, sondern wie eine Animation. 
+Und weil auf beiden Folien die gleichen Formen vertreten sind - ob nun sichtbar oder außerhalb der Foliengrenzen - sieht das Ergebnis nicht wie ein Übergang zwischen zwei verschiedenen Folien aus, sondern wie eine Animation.
 
-Und genauso können Sie dieses Werkzeug auch nutzen: 
-Sehen Sie Folie 1 als Ihre Ausgangsposition und bauen Sie auf Folie 2 Ihr gewünschtes Endresultat! 
+Und genauso können Sie dieses Werkzeug auch nutzen:
+Sehen Sie Folie 1 als Ihre Ausgangsposition und bauen Sie auf Folie 2 Ihr gewünschtes Endresultat!
 PowerPoint konstruiert automatisch alle Bewegungen dazwischen und nimmt Ihnen damit jede Menge Arbeitsschritte ab.
 
-#### Wann Morphen funktioniert
+#### Wann Morphen funktioniert [profi-tipps]
 
-Sie wissen also, wie Sie mithilfe von Morphen kinderleicht Animationen zaubern können. 
+Sie wissen also, wie Sie mithilfe von Morphen kinderleicht Animationen zaubern können.
 
-Sie sind begeistert. 
+Sie sind begeistert.
 Und frustriert.
 
-Denn obwohl Sie verstehen, wie das Werkzeug funktionieren sollte -  manchmal versagt es trotzdem. Scheinbar einfach so. 
+Denn obwohl Sie verstehen, wie das Werkzeug funktionieren sollte -  manchmal versagt es trotzdem. Scheinbar einfach so.
 
 Manche Übergänge kann das Programm wohl nicht verarbeiten.
 Aber welche?
@@ -107,7 +107,7 @@ Wir haben es für Sie ausprobiert. Und Ihnen eine Übersichts-PDF zum kostenlose
 
 ![](Wegweiser Morphen PDF-Vorschau.png)
 
-Hier finden Sie alle Möglichkeiten und Grenzen der Morph-Magie inklusive aller Geheim-Zaubersprüche, die mit „!!“ anfangen. Die funktionieren zwar auch nicht immer, aber jetzt wissen Sie wenigstens, wann. 
+Hier finden Sie alle Möglichkeiten und Grenzen der Morph-Magie inklusive aller Geheim-Zaubersprüche, die mit „!!“ anfangen. Die funktionieren zwar auch nicht immer, aber jetzt wissen Sie wenigstens, wann.
 
 Vorausgesetzt, Sie haben eine der folgenden PowerPoint-Versionen:
 

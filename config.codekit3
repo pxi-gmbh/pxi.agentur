@@ -199,6 +199,25 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/_drafts/ppt-morph/Morphen Beispiel simpel Anleitung.png": {
+		"ft": 32768,
+		"iS": 16808,
+		"oA": 0,
+		"oAP": "/build/_drafts/ppt-morph/Morphen Beispiel simpel Anleitung.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_drafts/ppt-morph/Morphen Beispiel simpel.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/_drafts/ppt-morph/Morphen Beispiel simpel.mp4",
+		"oF": 0
+		},
 	"/_drafts/ppt-morph/ppt-morph.md": {
 		"cB": 0,
 		"cS": 2,
@@ -217,6 +236,30 @@
 		"pME": 0,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/_drafts/ppt-morph/Wegweiser Morphen.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/_drafts/ppt-morph/Wegweiser Morphen.pdf",
+		"oF": 0
+		},
+	"/_drafts/ppt-morph/Zylindertrick Morphing funktioniert nicht.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/_drafts/ppt-morph/Zylindertrick Morphing funktioniert nicht.mp4",
+		"oF": 0
+		},
+	"/_drafts/ppt-morph/Zylindertrick Morphing funktioniert.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/_drafts/ppt-morph/Zylindertrick Morphing funktioniert.mp4",
+		"oF": 0
 		},
 	"/_html-code.html": {
 		"cB": 0,
