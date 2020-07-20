@@ -12,6 +12,7 @@
 {>>Was Sie über Morphen in PowerPoint wissen sollten<<}
 {>>Wenig bekannte Tricks, um bei Poweroint-Animationen viel Zeit zu sparen<<}
 {>>Mit dieser Methode sparen Sie Stunden beim Erstellen Ihrer PowerPoint-Präsentation<<}
+{>>Animieren in PowerPoint: Wie Sie diese typischen Morphing-Fehler vermeiden<<}
 
 Dass PowerPoint-Präsentationen animierbar sind, ist allgemein bekannt.
 Aber wussten Sie auch, dass das Programm hierfür mehr Werkzeuge bereitstellt als nur die Registerkarte [Animationen]? 
