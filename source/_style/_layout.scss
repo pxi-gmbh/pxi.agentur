@@ -31,7 +31,7 @@ main {
   padding-right: 1em;
 }
 main > * {
-  max-width: 60ch;
+  max-width: 58ch;
   margin-left: var(--page-margins, auto);
   margin-right: var(--page-margins, auto);
   // TODO testen: sollte klappen, mit class="--page-margins: auto;"
@@ -51,20 +51,25 @@ main > * {
 input.aside-toggle + * {
   float: right;
   clear: right;
-  margin-right: calc(-38% + 1em);
-  width: calc(38% - 2em);
+  margin-right: calc(-6rem - 20vw);
+	width: calc(3rem + 20vw);
+  padding-top: 1.5rem;
   margin-top: -1.5rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
   font-size: calc(var(--type-scale-normal) * 0.75);
   line-height: calc(var(--line-height) / 0.75);
+  border-top: 2px solid var(--color-base-dark);
   vertical-align: baseline;
+  position: relative;
 }
 input.aside-toggle {
   display: none;
 }
 label.aside-toggle {
   display: none;
-  color: var(--color-accent1-45);
+  border: none;
+  text-decoration: underline;
+  text-underline-position: under;
   cursor: pointer;
 }
 /* collapse sidenotes on small screens */

@@ -361,6 +361,16 @@
 		"oAP": "/build/rechtliches.html",
 		"oF": 2
 		},
+	"/source/_images/besatzung.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/_images/besatzung.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/source/_images/logo-bd.png": {
 		"ft": 32768,
 		"iS": 44004,

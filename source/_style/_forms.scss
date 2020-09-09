@@ -4,22 +4,22 @@ select {
 	margin: 0;
 }
 label{
-	margin: 0;
+  margin: 0;
 	position: relative;
 }
 input,
 textarea {
   --box-shadow-inset: inset;
   font: inherit;
-  font-family: var(--font-system);
+  font-family: var(--font-monospace);
 	margin: 0;
-	padding: var(--vertical-margins);
+	padding: calc(var(--vertical-margins) / 2);
 	border: 1px var(--color-base-3) solid;
 	border-radius: var(--border-radius);
 	max-width: 100%;
 }
 input[type="text"] {
-	font-family: var(--font-system);
+	font-family: var(--font-monospace);
 }
 input[type="radio"],
 input[type="checkbox"] {
@@ -31,19 +31,19 @@ input[type="checkbox"] {
 		width: 1em;
 		height: 1em;
 		background: var(--color-base-light);
-		border: 1px var(--color-accent1-45) solid;
+		border: 1px var(--color-base-dark) solid;
 		border-radius: 50%;
 		position: absolute;
 		left: 0;
 		top: 0;
 	}
 	&:checked::before {
-		background: var(--color-accent1-45);
+		background: var(--color-base-dark);
 	}
 }
 input[type="checkbox"] {
 	&::before {
-		border-radius: 4px;
+		border-radius: var(--border-radius);
 	}
 	&:checked::before {
 		content: '✓';
@@ -59,8 +59,8 @@ progress:not([value]) {
 	width: calc(100% - 1.5em);
 }
 form {
-	border: 1px var(--color-base-3) dotted;
-	border-radius: 4px;
+	border: 1px var(--color-base-3) solid;
+	border-radius: var(--border-radius);
 }
 	form * {
 		margin-left: 0;
@@ -71,7 +71,7 @@ form {
 		width:100%;
 	}
 fieldset {
-	font-family: var(--font-system);
+	font-family: var(--font-monospace);
 	border:none;
 }
 legend {

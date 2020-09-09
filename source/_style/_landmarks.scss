@@ -11,7 +11,7 @@
 }
 main {
   header {
-    margin-top: 10rem;
+    margin-top: 2rem;
   }
 }
 aside,
@@ -24,4 +24,16 @@ aside,
     margin: 0;
     margin-top: 4rem;
     padding: 2em;
+}
+[role="contentinfo"] a {
+	color: var(--color-base-light);
+  text-decoration: none;
+}
+[role="contentinfo"] [role="navigation"] a {
+    padding: 0.1em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--color-base-light);
+    color: var(--color-base-light);
 }

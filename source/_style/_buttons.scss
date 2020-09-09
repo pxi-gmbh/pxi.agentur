@@ -1,17 +1,12 @@
 button,
 [role="button"] {
-  color: var(--color-accent1-45);
   padding-left: 0.1em;
   padding-right: 0.1em;
-	border: 1px solid transparent;
+	border: 2px solid var(--color-base-dark);
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
 }
-button:hover,
-[role="button"]:hover {
-  border: 1px solid currentcolor;
-  box-shadow: var(--glow);
-}
+
 button:active,
 button:focus,
 [role="button"]:active,
@@ -19,5 +14,56 @@ button:focus,
 	box-shadow: var(--glow);
 }
 [aria-pressed="true"] {
-	border: 1px solid var(--color-accent1-45);
+	border: 2px solid var(--color-accent1-45);
+}
+:root{
+  --cta-padding: initial;
+}
+.button--primary,
+input.cta--primary,
+.cta--primary a {
+  display: block;
+  color: var(--color-base-light);
+  font-family: var(--font-monospace);
+  font-variant: small-caps;
+  text-transform: lowercase;
+  letter-spacing: .15em;
+  width: 100%;
+  max-width: 32ch;
+  margin: auto;
+  padding: .5em 1em;
+  background: var(--color-base-dark);
+  border-radius: var(--border-radius);
+  box-shadow: none;
+  --glow-color: var(--color-base-dark);
+  border: 2px solid var(--color-base-dark);
+  cursor: pointer;
+}
+.button--secondary,
+input.cta--secondary,
+.cta--secondary a {
+  display: block;
+  font-family: var(--font-monospace);
+  font-variant: small-caps;
+  text-transform: lowercase;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: .15em;
+  width: 100%;
+  max-width: 32ch;
+  margin: auto;
+  padding: .5em 1em;
+  border: 2px solid var(--color-base-dark);
+  border-radius: var(--border-radius);
+}
+button:hover,
+[role="button"]:hover,
+.button--primary:hover,
+.button--secondary:hover,
+input.cta--primary:hover,
+input.cta--secondary:hover,
+.cta--primary a:hover,
+.cta--secondary a:hover {
+  border: 2px solid var(--color-base-light);
+  box-shadow: var(--glow);
 }

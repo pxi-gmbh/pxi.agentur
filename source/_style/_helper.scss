@@ -33,7 +33,7 @@
 [aria-current] { /* highlight navigation links and more */
   text-decoration: underline;
   text-underline-position: under;
-  text-decoration-color: var(--color-accent1-45);
+  text-decoration-color: var(--color-base-dark);
 }
 /* layout */
 .is-cleared {
@@ -86,51 +86,6 @@
   margin-right: auto;
   border: 5px solid #000;
 }
-:root{
-  --cta-padding: initial;
-}
-/* style links and buttons that need to attract attention */
-input.cta--primary,
-.cta--primary a {
-  cursor: pointer;
-  color: var(--color-base-light);
-  font-family: var(--font-display);
-  font-weight: bold;
-  padding: var(--cta-padding);
-  padding-left: var(--cta-padding, 0.5em);
-  padding-right: var(--cta-padding, 0.5em);
-  border-radius: var(--border-radius);
-  background-color: var(--color-accent1-45);
-  text-decoration: none;
-  box-shadow: var(--drop-shadow);
-}
-input.cta--secondary,
-.cta--secondary a {
-  cursor: pointer;
-  color: var(--color-accent1-45);
-  font-family: var(--font-display);
-  font-weight: bold;
-  padding: var(--cta-padding);
-  padding-left: var(--cta-padding, 0.5em);
-  padding-right: var(--cta-padding, 0.5em);
-  border: 2px solid currentcolor;
-  border-radius: var(--border-radius);
-  text-decoration: none;
-  box-shadow: var(--drop-shadow);
-}
-input.cta--primary,
-input.cta--secondary,
-.cta--primary a,
-.cta--secondary a {
-  &:hover,
-  &:active,
-  &:focus {
-    color: var(--color-accent1-45);
-    background-color: initial;
-    text-shadow: none;
-    box-shadow: var(--glow);
-  }
-}
 /*
  * TYPOGRAPHIC HELPER CLASSES
  */
@@ -151,13 +106,19 @@ input.cta--secondary,
 	text-align: right;
 }
 .font-family\:display {
-  font-family: var(--font-display);
+  font-family: var(--font-monospace);
+}
+.font-family\:body {
+  font-family: var(--font-body);
 }
 .hyphens\:auto {
     hyphens:auto
 }
 .margin-top\:0 {
     margin-top:0
+}
+.margin-top\:single {
+    margin-top:calc(var(--vertical-margins) * 1);
 }
 .margin-top\:double {
     margin-top:calc(var(--vertical-margins) * 4);

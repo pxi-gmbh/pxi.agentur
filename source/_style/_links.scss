@@ -1,17 +1,16 @@
 a {
-  color: var(--color-base-45);
+  color: inherit;
+  text-decoration: underline;
   text-underline-position: under;
   cursor: pointer;
   text-decoration-skip: objects;
   text-decoration-skip-ink: auto;
-  text-decoration-color: var(--color-accent1-45);
+  text-decoration-color: var(--color-base-dark);
   transition: all 0.2s ease;
   &:hover,
   &:active,
   &:focus {
-    color: var(--color-base-75);
-    text-decoration: underline;
-    text-decoration-color: var(--color-accent2-45);
+    text-underline-position: auto;
   }
 }
 sup a {
@@ -28,20 +27,3 @@ sup a {
     content: "]";
   }
 }
-/*
-[href]:focus {
-outline:none
-}
-
-[href]:focus:not(:active) {
-outline: .125rem solid
-}
-
-[tabindex="-1"]:focus {
-outline:none
-}
-
-[href] {
-text-decoration-thickness:.125em !important
-}
-*/

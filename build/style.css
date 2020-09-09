@@ -33,8 +33,7 @@
   --color-accent3-75: rgba(147, 44, 98, 1);
   /* #932c62 */
   --font-body: 'Bodoni MT', Didot, 'Didot LT STD', 'Times', 'Times New Roman', serif;
-  --font-display: 'Arial Black', 'Avenir Next Heavy', Gadget, 'Arial Bold', Sans-Serif;
-  --font-monospace: "Courier 10 Pitch", Consolas, "Liberation Mono", Courier, monospace;
+  --font-monospace: Consolas, "Courier 10 Pitch", "Liberation Mono", Courier, monospace;
   --font-system: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --font-size-adjust: 0.42;
   /* use aspect ratio (hight/x-hight) of primary font in font stack to force unified x-hight */
@@ -54,7 +53,7 @@
   --line-height: 1.45;
   --vertical-margins: 2rem;
   /* standard margin-top for vertical rhythm */
-  --border-radius: 3px;
+  --border-radius: 2px;
   --box-shadow-x: initial;
   --box-shadow-y: initial;
   --box-shadow-blur: initial;
@@ -71,8 +70,8 @@
   /* no inset = space " " -> switch to inset with "inset" */
   --glow-color: initial;
   --glow-spread: initial;
-  --glow: -3px -3px 20px var(--glow-spread, 0) var(--glow-color, currentcolor),
-         3px  3px 20px var(--glow-spread, 0) var(--glow-color, currentcolor);
+  --glow: -3px -3px 0px var(--glow-spread, 0) var(--glow-color, currentcolor),
+         3px  3px 0px var(--glow-spread, 0) var(--glow-color, currentcolor);
   /* variables derived from JavaScript helper.js */
   /*
 // TODO create form slider with --input
@@ -259,21 +258,19 @@ svg:not(:root) {
   * - one selector per line, one rule per line
   */
 a {
-  color: var(--color-base-45);
+  color: inherit;
+  text-decoration: underline;
   text-underline-position: under;
   cursor: pointer;
   -webkit-text-decoration-skip: objects;
           text-decoration-skip: objects;
   -webkit-text-decoration-skip: ink;
           text-decoration-skip-ink: auto;
-  -webkit-text-decoration-color: var(--color-accent1-45);
-          text-decoration-color: var(--color-accent1-45);
+  -webkit-text-decoration-color: var(--color-base-dark);
+          text-decoration-color: var(--color-base-dark);
   transition: all 0.2s ease; }
   a:hover, a:active, a:focus {
-    color: var(--color-base-75);
-    text-decoration: underline;
-    -webkit-text-decoration-color: var(--color-accent2-45);
-            text-decoration-color: var(--color-accent2-45); }
+    text-underline-position: auto; }
 
 sup a {
   color: var(--color-accent1-45);
@@ -285,23 +282,6 @@ sup a {
   sup a::after {
     content: "]"; }
 
-/*
-[href]:focus {
-outline:none
-}
-
-[href]:focus:not(:active) {
-outline: .125rem solid
-}
-
-[tabindex="-1"]:focus {
-outline:none
-}
-
-[href] {
-text-decoration-thickness:.125em !important
-}
-*/
 /* MEDIA STYLES */
 img,
 svg,
@@ -344,17 +324,11 @@ video {
 
 button,
 [role="button"] {
-  color: var(--color-accent1-45);
   padding-left: 0.1em;
   padding-right: 0.1em;
-  border: 1px solid transparent;
+  border: 2px solid var(--color-base-dark);
   cursor: pointer;
   transition: all 0.2s ease-in-out; }
-
-button:hover,
-[role="button"]:hover {
-  border: 1px solid currentcolor;
-  box-shadow: var(--glow); }
 
 button:active,
 button:focus,
@@ -363,7 +337,58 @@ button:focus,
   box-shadow: var(--glow); }
 
 [aria-pressed="true"] {
-  border: 1px solid var(--color-accent1-45); }
+  border: 2px solid var(--color-accent1-45); }
+
+:root {
+  --cta-padding: initial; }
+
+.button--primary,
+input.cta--primary,
+.cta--primary a {
+  display: block;
+  color: var(--color-base-light);
+  font-family: var(--font-monospace);
+  font-variant: small-caps;
+  text-transform: lowercase;
+  letter-spacing: .15em;
+  width: 100%;
+  max-width: 32ch;
+  margin: auto;
+  padding: .5em 1em;
+  background: var(--color-base-dark);
+  border-radius: var(--border-radius);
+  box-shadow: none;
+  --glow-color: var(--color-base-dark);
+  border: 2px solid var(--color-base-dark);
+  cursor: pointer; }
+
+.button--secondary,
+input.cta--secondary,
+.cta--secondary a {
+  display: block;
+  font-family: var(--font-monospace);
+  font-variant: small-caps;
+  text-transform: lowercase;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: .15em;
+  width: 100%;
+  max-width: 32ch;
+  margin: auto;
+  padding: .5em 1em;
+  border: 2px solid var(--color-base-dark);
+  border-radius: var(--border-radius); }
+
+button:hover,
+[role="button"]:hover,
+.button--primary:hover,
+.button--secondary:hover,
+input.cta--primary:hover,
+input.cta--secondary:hover,
+.cta--primary a:hover,
+.cta--secondary a:hover {
+  border: 2px solid var(--color-base-light);
+  box-shadow: var(--glow); }
 
 optgroup,
 select {
@@ -378,15 +403,15 @@ input,
 textarea {
   --box-shadow-inset: inset;
   font: inherit;
-  font-family: var(--font-system);
+  font-family: var(--font-monospace);
   margin: 0;
-  padding: var(--vertical-margins);
+  padding: calc(var(--vertical-margins) / 2);
   border: 1px var(--color-base-3) solid;
   border-radius: var(--border-radius);
   max-width: 100%; }
 
 input[type="text"] {
-  font-family: var(--font-system); }
+  font-family: var(--font-monospace); }
 
 input[type="radio"],
 input[type="checkbox"] {
@@ -399,17 +424,17 @@ input[type="checkbox"] {
     width: 1em;
     height: 1em;
     background: var(--color-base-light);
-    border: 1px var(--color-accent1-45) solid;
+    border: 1px var(--color-base-dark) solid;
     border-radius: 50%;
     position: absolute;
     left: 0;
     top: 0; }
   input[type="radio"]:checked::before,
   input[type="checkbox"]:checked::before {
-    background: var(--color-accent1-45); }
+    background: var(--color-base-dark); }
 
 input[type="checkbox"]::before {
-  border-radius: 4px; }
+  border-radius: var(--border-radius); }
 
 input[type="checkbox"]:checked::before {
   content: '✓';
@@ -424,8 +449,8 @@ progress:not([value]) {
   width: calc(100% - 1.5em); }
 
 form {
-  border: 1px var(--color-base-3) dotted;
-  border-radius: 4px; }
+  border: 1px var(--color-base-3) solid;
+  border-radius: var(--border-radius); }
 
 form * {
   margin-left: 0;
@@ -436,7 +461,7 @@ form [role="button"] {
   width: 100%; }
 
 fieldset {
-  font-family: var(--font-system);
+  font-family: var(--font-monospace);
   border: none; }
 
 legend {
@@ -637,7 +662,7 @@ h1,
 .header-1 {
   font-family: var(--font-body);
   font-weight: bolder;
-  font-size: var(--type-scale-huge);
+  font-size: var(--type-scale-h1);
   font-style: normal;
   letter-spacing: 0.02em;
   clear: both; }
@@ -938,7 +963,7 @@ main {
   padding-right: 1em; }
 
 main > * {
-  max-width: 60ch;
+  max-width: 58ch;
   margin-left: var(--page-margins, auto);
   margin-right: var(--page-margins, auto); }
 
@@ -951,20 +976,25 @@ main > * {
 input.aside-toggle + * {
   float: right;
   clear: right;
-  margin-right: calc(-38% + 1em);
-  width: calc(38% - 2em);
+  margin-right: calc(-6rem - 20vw);
+  width: calc(3rem + 20vw);
+  padding-top: 1.5rem;
   margin-top: -1.5rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
   font-size: calc(var(--type-scale-normal) * 0.75);
   line-height: calc(var(--line-height) / 0.75);
-  vertical-align: baseline; }
+  border-top: 2px solid var(--color-base-dark);
+  vertical-align: baseline;
+  position: relative; }
 
 input.aside-toggle {
   display: none; }
 
 label.aside-toggle {
   display: none;
-  color: var(--color-accent1-45);
+  border: none;
+  text-decoration: underline;
+  text-underline-position: under;
   cursor: pointer; }
 
 /* collapse sidenotes on small screens */
@@ -1121,8 +1151,8 @@ label.aside-toggle {
   /* highlight navigation links and more */
   text-decoration: underline;
   text-underline-position: under;
-  -webkit-text-decoration-color: var(--color-accent1-45);
-          text-decoration-color: var(--color-accent1-45); }
+  -webkit-text-decoration-color: var(--color-base-dark);
+          text-decoration-color: var(--color-base-dark); }
 
 /* layout */
 .is-cleared {
@@ -1180,53 +1210,6 @@ label.aside-toggle {
   margin-right: auto;
   border: 5px solid #000; }
 
-:root {
-  --cta-padding: initial; }
-
-/* style links and buttons that need to attract attention */
-input.cta--primary,
-.cta--primary a {
-  cursor: pointer;
-  color: var(--color-base-light);
-  font-family: var(--font-display);
-  font-weight: bold;
-  padding: var(--cta-padding);
-  padding-left: var(--cta-padding, 0.5em);
-  padding-right: var(--cta-padding, 0.5em);
-  border-radius: var(--border-radius);
-  background-color: var(--color-accent1-45);
-  text-decoration: none;
-  box-shadow: var(--drop-shadow); }
-
-input.cta--secondary,
-.cta--secondary a {
-  cursor: pointer;
-  color: var(--color-accent1-45);
-  font-family: var(--font-display);
-  font-weight: bold;
-  padding: var(--cta-padding);
-  padding-left: var(--cta-padding, 0.5em);
-  padding-right: var(--cta-padding, 0.5em);
-  border: 2px solid currentcolor;
-  border-radius: var(--border-radius);
-  text-decoration: none;
-  box-shadow: var(--drop-shadow); }
-
-input.cta--primary:hover, input.cta--primary:active, input.cta--primary:focus,
-input.cta--secondary:hover,
-input.cta--secondary:active,
-input.cta--secondary:focus,
-.cta--primary a:hover,
-.cta--primary a:active,
-.cta--primary a:focus,
-.cta--secondary a:hover,
-.cta--secondary a:active,
-.cta--secondary a:focus {
-  color: var(--color-accent1-45);
-  background-color: initial;
-  text-shadow: none;
-  box-shadow: var(--glow); }
-
 /*
  * TYPOGRAPHIC HELPER CLASSES
  */
@@ -1250,7 +1233,10 @@ input.cta--secondary:focus,
   text-align: right; }
 
 .font-family\:display {
-  font-family: var(--font-display); }
+  font-family: var(--font-monospace); }
+
+.font-family\:body {
+  font-family: var(--font-body); }
 
 .hyphens\:auto {
   -webkit-hyphens: auto;
@@ -1259,6 +1245,9 @@ input.cta--secondary:focus,
 
 .margin-top\:0 {
   margin-top: 0; }
+
+.margin-top\:single {
+  margin-top: calc(var(--vertical-margins) * 1); }
 
 .margin-top\:double {
   margin-top: calc(var(--vertical-margins) * 4); }
@@ -1272,7 +1261,7 @@ input.cta--secondary:focus,
  */
 /* style banner-information for a document */
 main header {
-  margin-top: 10rem; }
+  margin-top: 2rem; }
 
 /* style the meta-information for a document */
 [role="contentinfo"] {
@@ -1281,6 +1270,18 @@ main header {
   margin: 0;
   margin-top: 4rem;
   padding: 2em; }
+
+[role="contentinfo"] a {
+  color: var(--color-base-light);
+  text-decoration: none; }
+
+[role="contentinfo"] [role="navigation"] a {
+  padding: 0.1em;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-base-light);
+  color: var(--color-base-light); }
 
 #nav-menu {
   text-align: center;
@@ -1292,8 +1293,8 @@ main header {
 #nav-menu ul {
   list-style: none; }
 
-#nav-menu a:not([aria-current]) {
-  text-decoration: none; }
+.logo-type {
+  font-family: var(--font-monospace); }
 
 #nav-menu .logo-type {
   display: none; }

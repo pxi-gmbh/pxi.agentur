@@ -45,8 +45,7 @@ $break-wide: 1162px; // can't use css-variables for media queries
 
 // FONT-FAMILIES
 --font-body: 'Bodoni MT', Didot, 'Didot LT STD', 'Times', 'Times New Roman', serif;
---font-display: 'Arial Black', 'Avenir Next Heavy', Gadget, 'Arial Bold', Sans-Serif;
---font-monospace: "Courier 10 Pitch", Consolas, "Liberation Mono", Courier, monospace; // monospace stack used by github (amended by Linux-Courier font)
+--font-monospace: Consolas, "Courier 10 Pitch", "Liberation Mono", Courier, monospace; // monospace stack used by github (amended by Linux-Courier font)
 --font-system: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 // ALTERNATE FONT-FAMILIES
 // SANS-SERIF, native UI fonts
@@ -81,7 +80,7 @@ $break-wide: 1162px; // can't use css-variables for media queries
 --vertical-margins: 2rem; /* standard margin-top for vertical rhythm */
 
 // AESTHETICS
---border-radius: 3px;
+--border-radius: 2px;
 
 --box-shadow-x: initial;
 --box-shadow-y: initial;
@@ -100,8 +99,8 @@ $break-wide: 1162px; // can't use css-variables for media queries
 // .foo:active { -box-shadow-y: 2em; box-shadow: var(--drop-shadow); }
 --glow-color: initial;
 --glow-spread: initial;
---glow: -3px -3px 20px var(--glow-spread, 0) var(--glow-color, currentcolor),
-         3px  3px 20px var(--glow-spread, 0) var(--glow-color, currentcolor);
+--glow: -3px -3px 0px var(--glow-spread, 0) var(--glow-color, currentcolor),
+         3px  3px 0px var(--glow-spread, 0) var(--glow-color, currentcolor);
 
 // HELPER
 /* variables derived from JavaScript helper.js */
