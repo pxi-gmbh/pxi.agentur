@@ -350,6 +350,7 @@ input.cta--primary,
   font-family: var(--font-monospace);
   font-variant: small-caps;
   text-transform: lowercase;
+  text-decoration: none;
   letter-spacing: .15em;
   width: 100%;
   max-width: 32ch;
