@@ -2,7 +2,7 @@ button,
 [role="button"] {
   padding-left: 0.1em;
   padding-right: 0.1em;
-	border: 2px solid var(--color-base-dark);
+	border: 2px solid currentcolor;
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
 }
@@ -36,7 +36,7 @@ input.cta--primary,
   border-radius: var(--border-radius);
   box-shadow: none;
   --glow-color: var(--color-base-dark);
-  border: 2px solid var(--color-base-dark);
+  border: 2px solid currentcolor;
   cursor: pointer;
 }
 .button--secondary,
@@ -53,7 +53,7 @@ input.cta--secondary,
   max-width: 32ch;
   margin: auto;
   padding: .5em 1em;
-  border: 2px solid var(--color-base-dark);
+  border: 2px solid currentcolor;
   border-radius: var(--border-radius);
 }
 button:hover,
@@ -64,6 +64,6 @@ input.cta--primary:hover,
 input.cta--secondary:hover,
 .cta--primary a:hover,
 .cta--secondary a:hover {
-  border: 2px solid var(--color-base-light);
+  border: 2px solid currentcolor;
   box-shadow: var(--glow);
 }

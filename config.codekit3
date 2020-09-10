@@ -206,7 +206,7 @@
 		"oAP": "/build/_drafts/ppt-morph/Morphen Beispiel simpel Anleitung.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -244,7 +244,7 @@
 		"oAP": "/build/_drafts/ppt-morph/Wegweiser Morphen PDF-Vorschau.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1355,7 +1355,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-tar",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 612974007.60167694
+	"lastBuiltDate": 621389469.59718001
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

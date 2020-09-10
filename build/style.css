@@ -266,8 +266,8 @@ a {
           text-decoration-skip: objects;
   -webkit-text-decoration-skip: ink;
           text-decoration-skip-ink: auto;
-  -webkit-text-decoration-color: var(--color-base-dark);
-          text-decoration-color: var(--color-base-dark);
+  -webkit-text-decoration-color: currentcolor;
+          text-decoration-color: currentcolor;
   transition: all 0.2s ease; }
   a:hover, a:active, a:focus {
     text-underline-position: auto; }
@@ -326,7 +326,7 @@ button,
 [role="button"] {
   padding-left: 0.1em;
   padding-right: 0.1em;
-  border: 2px solid var(--color-base-dark);
+  border: 2px solid currentcolor;
   cursor: pointer;
   transition: all 0.2s ease-in-out; }
 
@@ -359,7 +359,7 @@ input.cta--primary,
   border-radius: var(--border-radius);
   box-shadow: none;
   --glow-color: var(--color-base-dark);
-  border: 2px solid var(--color-base-dark);
+  border: 2px solid currentcolor;
   cursor: pointer; }
 
 .button--secondary,
@@ -376,7 +376,7 @@ input.cta--secondary,
   max-width: 32ch;
   margin: auto;
   padding: .5em 1em;
-  border: 2px solid var(--color-base-dark);
+  border: 2px solid currentcolor;
   border-radius: var(--border-radius); }
 
 button:hover,
@@ -387,7 +387,7 @@ input.cta--primary:hover,
 input.cta--secondary:hover,
 .cta--primary a:hover,
 .cta--secondary a:hover {
-  border: 2px solid var(--color-base-light);
+  border: 2px solid currentcolor;
   box-shadow: var(--glow); }
 
 optgroup,
@@ -678,15 +678,6 @@ h3,
   font-family: var(--font-body);
   font-size: var(--type-scale-h3); }
 
-@supports (font-feature-settings: "smcp") {
-  /* use @supports detection to supply proper small-caps instead of downscaled caps */
-  h4,
-  .header-4 {
-    font-variant: small-caps;
-    font-feature-settings: 'smcp';
-    font-weight: normal;
-    letter-spacing: 0.02em; } }
-
 h4,
 .header-4 {
   font-family: var(--font-body);
@@ -703,7 +694,9 @@ h5,
 * + h1,
 * + .header-1,
 * + h2,
-* + .header-2,
+* + .header-2 {
+  margin-top: calc(var(--vertical-margins) * 4); }
+
 * + h3,
 * + .header-3,
 * + h4,
@@ -715,7 +708,7 @@ h2:first-child,
 h3:first-child,
 h4:first-child,
 h5:first-child {
-  margin-top: 6rem; }
+  margin-top: calc(var(--vertical-margins) * 2); }
 
 h5 + *,
 .header-5 + * {
@@ -743,12 +736,14 @@ li + li {
   /* reset universal top-margins for elements that should not have it by default */ }
 
 ul {
-  list-style-type: disc;
-  list-style-position: outside; }
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 1.2em; }
 
 ol {
   list-style-type: decimal-leading-zero;
-  list-style-position: outside; }
+  list-style-position: outside;
+  margin-left: 1.2em; }
 
 figure,
 table {

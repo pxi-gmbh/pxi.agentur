@@ -61,13 +61,6 @@ h3,
 }
 @supports(font-feature-settings: 'smcp') {
   /* use @supports detection to supply proper small-caps instead of downscaled caps */
-  h4,
-  .header-4 {
-    font-variant: small-caps;
-    font-feature-settings: 'smcp';
-    font-weight: normal;
-    letter-spacing: 0.02em;
-  }
 }
 h4,
 .header-4 {
@@ -85,7 +78,10 @@ h5,
 * + h1,
 * + .header-1,
 * + h2,
-* + .header-2,
+* + .header-2 {
+  margin-top: calc(var(--vertical-margins) * 4);
+}
+
 * + h3,
 * + .header-3,
 * + h4,
@@ -97,7 +93,7 @@ h2:first-child,
 h3:first-child,
 h4:first-child,
 h5:first-child  {
-  margin-top: 6rem;
+  margin-top: calc(var(--vertical-margins) * 2);
 }
 h5 + *,
 .header-5 + * {
@@ -122,12 +118,14 @@ li + li {
 }
 
 ul {
-  list-style-type: disc;
+  list-style-type: square;
   list-style-position: outside;
+  margin-left: 1.2em;
 }
 ol {
   list-style-type: decimal-leading-zero;
   list-style-position: outside;
+  margin-left: 1.2em;
 }
 figure,
 table {
