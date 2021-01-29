@@ -1280,14 +1280,18 @@ main header {
   color: var(--color-base-light); }
 
 #nav-menu {
+  font-size: 90%;
   text-align: center;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  padding-left: 5%;
-  padding-right: 5%; }
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 3%;
+  padding-right: 3%; }
 
 #nav-menu ul {
   list-style: none; }
+
+#nav-menu [aria-current] {
+  border-bottom: 2px solid currentcolor; }
 
 .logo-type {
   font-family: var(--font-monospace); }

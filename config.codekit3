@@ -1343,6 +1343,41 @@
 		"oAP": "/build/s/pattern-airmail.gif",
 		"oF": 0,
 		"opt": 1
+		},
+	"/source/virtuelle-arbeit/_virtualisierung.md": {
+		"cB": 0,
+		"cS": 2,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/virtuelle-arbeit/_virtualisierung.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 1,
+		"pHT": 1,
+		"pME": 0,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/source/virtuelle-arbeit/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/build/virtuelle-arbeit/index.html",
+		"oF": 0
+		},
+	"/source/virtuelle-arbeit/virtuell-pakete.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/build/virtuelle-arbeit/virtuell-pakete.html",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -1355,7 +1390,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-tar",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 621389469.59718001
+	"lastBuiltDate": 633655658.94597101
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
